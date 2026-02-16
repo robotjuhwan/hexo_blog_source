@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 updated: {{ date }}
-categories: [ ]
-tags: [ ]
+categories: [Study, Github]
+tags: [Github]
 toc: true
 sidebar:
     left:
@@ -22,3 +22,6 @@ widgets:
   - type: tags
     position: right
 ---
+      
+<!-- more -->
+# 잡담

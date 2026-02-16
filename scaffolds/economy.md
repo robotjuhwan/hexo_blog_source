@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 updated: {{ date }}
-categories: [ ]
-tags: [ ]
+categories: [Economy]
+tags: [Economy]
 toc: true
 sidebar:
     left:
@@ -22,3 +22,10 @@ widgets:
   - type: tags
     position: right
 ---
+
+<!-- more -->
+# 잡담
+
+
+
+# 마무리

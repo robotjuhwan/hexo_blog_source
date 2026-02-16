@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: PouL
 subtitle: ''
-description: ''
+description: '포울 블로그'
 keywords:
-author: John Doe
-language: en
+author: PouL
+language: ko
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://poul.kr
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,6 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+plugins: hexo-generator-cname
+
 theme: icarus
 
 # Deployment
@@ -105,3 +107,25 @@ deploy:
   type: git
   repo: https://github.com/robotjuhwan/robotjuhwan.github.io.git
   branch: main
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://poul.kr/sitemap.xml
+
+nofollow:
+    enable: true
+    exclude:
+    - exclude1.com
+    - exclude2.com
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
