@@ -7,9 +7,14 @@ title: PouL
 subtitle: ''
 description: '포울 블로그'
 keywords:
+  - 포울
+  - 포항
+  - 블로그
+  - 맛집
+  - 경제
 author: PouL
 language: ko
-timezone: ''
+timezone: Asia/Seoul
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -17,8 +22,8 @@ url: https://poul.kr
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -99,7 +104,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 plugins: hexo-generator-cname
 
-theme: icarus
+theme: icarus_local
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
