@@ -1,6 +1,7 @@
 /* eslint no-process-exit: "off" */
 const semver = require('semver');
-const logger = require('hexo-log')();
+const createLogger = require('hexo-log');
+const logger = (createLogger.default || createLogger)();
 const packageInfo = require('../package.json');
 const { yellow, red, green } = require('./util/console');
 

@@ -1,4 +1,5 @@
-const logger = require('hexo-log')();
+const createLogger = require('hexo-log');
+const logger = (createLogger.default || createLogger)();
 
 module.exports = hexo => {
     logger.info('=== Registering Hexo extensions ===');

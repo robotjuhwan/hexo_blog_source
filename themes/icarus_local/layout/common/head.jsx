@@ -49,7 +49,11 @@ module.exports = class extends Component {
             favicon
         } = head;
 
-        const noIndex = helper.is_archive() || helper.is_category() || helper.is_tag();
+        const isPreview = config.preview === true;
+        const noIndex = isPreview || helper.is_archive() || helper.is_category() || helper.is_tag();
+        const headMeta = isPreview
+            ? meta.filter(item => typeof item !== 'string' || !/^name=robots;/i.test(item))
+            : meta;
 
         const language = page.lang || page.language || config.language;
         const fontCssUrl = {
@@ -86,7 +90,7 @@ module.exports = class extends Component {
         }
 
         let adsenseClientId = null;
-        if (Array.isArray(config.widgets)) {
+        if (config.adsense !== false && Array.isArray(config.widgets)) {
             const widget = config.widgets.find(widget => widget.type === 'adsense');
             if (widget) {
                 adsenseClientId = widget.client_id;
@@ -120,8 +124,8 @@ module.exports = class extends Component {
         return <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            {noIndex ? <meta name="robots" content="noindex" /> : null}
-            {meta && meta.length ? <MetaTags meta={meta} /> : null}
+            {noIndex ? <meta name="robots" content={isPreview ? 'noindex,nofollow,noarchive' : 'noindex'} /> : null}
+            {headMeta && headMeta.length ? <MetaTags meta={headMeta} /> : null}
 
             <title>{getPageTitle(page, config.title, helper)}</title>
 
@@ -162,7 +166,7 @@ module.exports = class extends Component {
                 updated={page.updated}
                 images={structuredImages} /> : null}
             <meta name="naver-site-verification" content="1952a8d7d5081448cd5118063be73194d9003046" />
-            {canonical_url ? <link rel="canonical" href={canonical_url} /> : null}
+            {!isPreview && canonical_url ? <link rel="canonical" href={canonical_url} /> : null}
             {rss ? <link rel="alternate" href={url_for(rss)} title={config.title} type="application/atom+xml" /> : null}
             {favicon ? <link rel="icon" href={url_for(favicon)} /> : null}
             <link rel="stylesheet" href={iconcdn()} />
@@ -170,8 +174,8 @@ module.exports = class extends Component {
             <link rel="stylesheet" href={fontCssUrl[variant]} />
             <link rel="stylesheet" href={url_for('/css/' + variant + '.css')} />
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454862779387141"
-     crossorigin="anonymous"></script>
+            {config.adsense !== false ? <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454862779387141"
+                crossorigin="anonymous"></script> : null}
             {adsenseClientId ? <script data-ad-client={adsenseClientId}
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script> : null}
 

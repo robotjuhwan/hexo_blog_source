@@ -1,0 +1,33 @@
+# Preview-only config for the Hexo 8 upgrade branch.
+# This is served from https://robotjuhwan.github.io/poul-preview/
+# and must not be indexed or treated as the production site.
+
+preview: true
+url: https://robotjuhwan.github.io/poul-preview
+root: /poul-preview/
+public_dir: public_preview
+
+deploy:
+  type: git
+  repo: git@github-robot:robotjuhwan/poul-preview.git
+  branch: gh-pages
+
+adsense: false
+
+robotstxt:
+  useragent: "*"
+  allow: []
+  disallow:
+    - /
+  sitemap: false
+
+head:
+  canonical_url: false
+  meta:
+    - 'name=theme-color;content=#3273dc'
+    - 'name=robots;content=noindex,nofollow,noarchive'
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
