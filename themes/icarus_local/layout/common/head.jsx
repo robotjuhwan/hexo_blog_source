@@ -61,7 +61,7 @@ module.exports = class extends Component {
             manifest = {},
             open_graph = {},
             structured_data = {},
-            canonical_url = page.permalink,
+            canonical_url,
             rss,
             favicon
         } = head;
@@ -71,6 +71,10 @@ module.exports = class extends Component {
         const headMeta = isPreview
             ? meta.filter(item => typeof item !== 'string' || !/^name=robots;/i.test(item))
             : meta;
+        const pagePath = !page.path || page.path === 'index.html' ? '/' : page.path;
+        const canonicalUrl = canonical_url === false
+            ? null
+            : (canonical_url || page.permalink || new URL(url_for(pagePath), url).href);
 
         const language = page.lang || page.language || config.language;
         const fontCssUrl = {
@@ -192,7 +196,7 @@ module.exports = class extends Component {
                 updated={page.updated}
                 images={structuredImages} /> : null}
             <meta name="naver-site-verification" content="1952a8d7d5081448cd5118063be73194d9003046" />
-            {!isPreview && canonical_url ? <link rel="canonical" href={canonical_url} /> : null}
+            {!isPreview && canonicalUrl ? <link rel="canonical" href={canonicalUrl} /> : null}
             {rss ? <link rel="alternate" href={url_for(rss)} title={config.title} type="application/atom+xml" /> : null}
             {favicon ? <link rel="icon" href={url_for(favicon)} /> : null}
             <link rel="stylesheet" href={iconcdn()} />
