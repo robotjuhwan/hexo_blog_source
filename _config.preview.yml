@@ -23,6 +23,19 @@ robotstxt:
 
 head:
   canonical_url: false
+  manifest:
+    start_url: /poul-preview/
+    icons:
+      -
+        src: /poul-preview/img/icon-192.png
+        sizes: 192x192
+        type: image/png
+      -
+        src: /poul-preview/img/icon-512.png
+        sizes: 512x512
+        type: image/png
+  open_graph:
+    image: /poul-preview/img/poul_logo.jpg
   meta:
     - 'name=theme-color;content=#3273dc'
     - 'name=robots;content=noindex,nofollow,noarchive'
@@ -31,3 +44,7 @@ sitemap:
   path: sitemap.xml
   tag: false
   category: false
+
+plugins:
+  cookie_consent:
+    policyLink: /poul-preview/privacy/

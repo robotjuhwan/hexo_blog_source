@@ -15,9 +15,15 @@ module.exports = class extends Component {
                     return null;
                 }
                 try {
+                    let pluginConfig = plugins[name];
+                    if (config.preview === true && name === 'cookie_consent' && pluginConfig && typeof pluginConfig === 'object') {
+                        pluginConfig = Object.assign({}, pluginConfig, {
+                            policyLink: helper.url_for('/privacy/')
+                        });
+                    }
                     let Plugin = view.require('plugin/' + name);
                     Plugin = Plugin.Cacheable ? Plugin.Cacheable : Plugin;
-                    return <Plugin site={site} config={config} page={page} helper={helper} plugin={plugins[name]} head={head} />;
+                    return <Plugin site={site} config={config} page={page} helper={helper} plugin={pluginConfig} head={head} />;
                 } catch (e) {
                     logger.w(`Icarus cannot load plugin "${name}"`);
                     return null;

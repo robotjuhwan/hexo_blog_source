@@ -28,6 +28,23 @@ function getPageTitle(page, siteTitle, helper) {
     return [title, siteTitle].filter(str => typeof str !== 'undefined' && str.trim() !== '').join(' - ');
 }
 
+function normalizePreviewImage(value, helper, isPreview) {
+    if (!isPreview) {
+        return value;
+    }
+    if (Array.isArray(value)) {
+        return value.map(item => normalizePreviewImage(item, helper, isPreview));
+    }
+    if (typeof value === 'string' && value.startsWith('/')) {
+        const previewRoot = helper.url_for('/');
+        if (previewRoot !== '/' && value.startsWith(previewRoot)) {
+            return value;
+        }
+        return helper.url_for(value);
+    }
+    return value;
+}
+
 module.exports = class extends Component {
     render() {
         const { site, config, helper, page } = this.props;
@@ -113,6 +130,15 @@ module.exports = class extends Component {
             structuredImages = page.photos;
         }
 
+        openGraphImages = normalizePreviewImage(openGraphImages, helper, isPreview);
+        structuredImages = normalizePreviewImage(structuredImages, helper, isPreview);
+
+        const webAppIcons = isPreview && Array.isArray(manifest.icons)
+            ? manifest.icons.map(icon => Object.assign({}, icon, {
+                src: typeof icon.src === 'string' && icon.src.startsWith('/') ? url_for(icon.src) : icon.src
+            }))
+            : manifest.icons;
+
         let followItVerificationCode = null;
         if (Array.isArray(config.widgets)) {
             const widget = config.widgets.find(widget => widget.type === 'followit');
@@ -132,7 +158,7 @@ module.exports = class extends Component {
             <WebApp.Cacheable
                 helper={helper}
                 favicon={favicon}
-                icons={manifest.icons}
+                icons={webAppIcons}
                 themeColor={manifest.theme_color}
                 name={manifest.name || config.title} />
 
