@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">붕붕고 구현 구조</title>
+  <desc id="desc">TypeScript 도메인, React UI, Phaser 필드, 저장과 테스트로 나뉜 웹 우선 구현 구조</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#42526b"/></marker>
+    <style><![CDATA[
+      .h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#202333}
+      .t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:850;fill:#202333}
+      .s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:620;fill:#596171}
+      .box{fill:#fff;stroke:#8aa2c1;stroke-width:4}
+    ]]></style>
+  </defs>
+  <rect width="1300" height="720" rx="42" fill="#f5f9ff"/>
+  <text x="78" y="82" class="h" font-size="48">현재 방향은 웹 우선, 엔진 독립 코어</text>
+  <text x="80" y="124" class="s" font-size="24">게임 규칙은 TypeScript 도메인에 두고, 화면은 React와 Phaser가 나눠 갖는 구조로 잡아둠.</text>
+  <g transform="translate(90 220)"><rect class="box" width="270" height="150" rx="26"/><text x="135" y="58" text-anchor="middle" class="t" font-size="30">Core Specs</text><text x="135" y="98" text-anchor="middle" class="s" font-size="21">규칙, 경제, 콘텐츠</text><text x="135" y="126" text-anchor="middle" class="s" font-size="21">먼저 문서로 고정</text></g>
+  <g transform="translate(515 185)"><rect class="box" width="270" height="150" rx="26" fill="#fff8ea"/><text x="135" y="58" text-anchor="middle" class="t" font-size="30">Domain TS</text><text x="135" y="98" text-anchor="middle" class="s" font-size="21">시뮬레이션, 리포트</text><text x="135" y="126" text-anchor="middle" class="s" font-size="21">테스트 가능한 순수 로직</text></g>
+  <g transform="translate(515 438)"><rect class="box" width="270" height="150" rx="26" fill="#eefbf2"/><text x="135" y="58" text-anchor="middle" class="t" font-size="30">Save/Test</text><text x="135" y="98" text-anchor="middle" class="s" font-size="21">저장, 검증, 24주</text><text x="135" y="126" text-anchor="middle" class="s" font-size="21">자동 확인</text></g>
+  <g transform="translate(940 155)"><rect class="box" width="270" height="150" rx="26" fill="#fff"/><text x="135" y="58" text-anchor="middle" class="t" font-size="30">React UI</text><text x="135" y="98" text-anchor="middle" class="s" font-size="21">HUD, 팝업, 리포트</text><text x="135" y="126" text-anchor="middle" class="s" font-size="21">텍스트 많은 화면</text></g>
+  <g transform="translate(940 405)"><rect class="box" width="270" height="150" rx="26" fill="#fff"/><text x="135" y="58" text-anchor="middle" class="t" font-size="30">Phaser Field</text><text x="135" y="98" text-anchor="middle" class="s" font-size="21">움직이는 필드</text><text x="135" y="126" text-anchor="middle" class="s" font-size="21">오토바이와 증거판</text></g>
+  <path d="M360 295 H505" stroke="#42526b" stroke-width="7" marker-end="url(#arr)"/>
+  <path d="M650 335 V428" stroke="#42526b" stroke-width="7" marker-end="url(#arr)"/>
+  <path d="M785 260 H930" stroke="#42526b" stroke-width="7" marker-end="url(#arr)"/>
+  <path d="M785 510 H930" stroke="#42526b" stroke-width="7" marker-end="url(#arr)"/>
+  <path d="M940 305 C860 360 860 408 940 455" fill="none" stroke="#42526b" stroke-width="5" stroke-dasharray="14 12"/>
+  <text x="650" y="665" text-anchor="middle" class="s" font-size="24">Unity/Unreal로 옮기더라도 핵심 규칙은 같은 코어를 먹게 하려는 그림</text>
+</svg>

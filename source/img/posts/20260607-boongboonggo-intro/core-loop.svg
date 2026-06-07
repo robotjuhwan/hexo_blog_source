@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">붕붕고 주간 루프</title>
+  <desc id="desc">연구, 직원 배치, 지역 정책 선택, 자동 영업, 리포트, 증거판으로 이어지는 붕붕고의 한 주 흐름</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff9e8"/><stop offset="1" stop-color="#f0fff1"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M2,2 L10,6 L2,10 Z" fill="#e45d3f"/></marker>
+    <style><![CDATA[
+      .h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#2d251d}
+      .t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:800;fill:#3f3228}
+      .s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:600;fill:#6b5748}
+      .card{fill:#ffffff;stroke:#f0b26b;stroke-width:5}
+    ]]></style>
+  </defs>
+  <rect width="1300" height="720" rx="40" fill="url(#bg)"/>
+  <text x="650" y="74" text-anchor="middle" class="h" font-size="48">붕붕고의 한 주는 이렇게 돈다</text>
+  <text x="650" y="118" text-anchor="middle" class="s" font-size="24">직접 굽거나 운전하는 게임이 아니라, 실험하고 배치하고 결과를 읽는 경영 루프</text>
+  <path d="M305 230 C520 104 780 104 995 230" fill="none" stroke="#e45d3f" stroke-width="8" marker-end="url(#arrow)" opacity="0.85"/>
+  <path d="M1048 325 C1065 515 842 638 650 638 C458 638 235 515 252 325" fill="none" stroke="#e45d3f" stroke-width="8" marker-end="url(#arrow)" opacity="0.85"/>
+  <g transform="translate(90 190)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">1. 이번 주 목표</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">맞춤, 온도, 현금,</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">투자 증거 중 선택</text>
+  </g>
+  <g transform="translate(400 148)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">2. 연구</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">자동 굽기, 보온,</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">취향 추천을 올림</text>
+  </g>
+  <g transform="translate(710 148)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">3. 직원/차량</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">차고, 연구실,</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">데이터 데스크 배치</text>
+  </g>
+  <g transform="translate(1020 190)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">4. 지역/정책</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">동네, 오피스,</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">대학가, 축제장</text>
+  </g>
+  <g transform="translate(865 470)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">5. 자동 영업</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">오토바이가 달리고</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">고객 반응이 생김</text>
+  </g>
+  <g transform="translate(525 510)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">6. 리포트</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">돈보다 먼저</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">실패 이유를 읽음</text>
+  </g>
+  <g transform="translate(185 470)">
+    <rect class="card" width="250" height="138" rx="26"/><text x="125" y="50" text-anchor="middle" class="t" font-size="30">7. 증거판</text><text x="125" y="92" text-anchor="middle" class="s" font-size="21">고객 기억과 수상</text><text x="125" y="120" text-anchor="middle" class="s" font-size="21">다음 투자 근거로 저장</text>
+  </g>
+</svg>

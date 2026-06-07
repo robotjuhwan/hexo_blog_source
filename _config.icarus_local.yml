@@ -52,7 +52,7 @@ head:
         url: 
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: /img/poul_logo.jpg
+        image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: PouL
@@ -61,7 +61,7 @@ head:
         author: 
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 포울 블로그
+        description: 
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)

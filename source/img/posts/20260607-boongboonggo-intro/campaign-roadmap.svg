@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="760" viewBox="0 0 1300 760" role="img" aria-labelledby="title desc">
+  <title id="title">붕붕고 24주 캠페인 로드맵</title>
+  <desc id="desc">동네 실험실에서 전국 출시 심사까지 이어지는 24주 캠페인 단계</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff3df"/><stop offset="1" stop-color="#edf8ff"/></linearGradient>
+    <style><![CDATA[
+      .h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#24222d}
+      .t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:800;fill:#24222d}
+      .s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:600;fill:#5a5968}
+      .week{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#fff}
+    ]]></style>
+  </defs>
+  <rect width="1300" height="760" rx="42" fill="url(#bg)"/>
+  <text x="80" y="82" class="h" font-size="48">24주 안에 붕붕고가 진짜 사업인지 증명하기</text>
+  <text x="82" y="125" class="s" font-size="24">각 4주 구간마다 다른 사업 가설이 걸린다. 숫자가 아니라 “증거”를 모으는 캠페인.</text>
+  <path d="M120 408 C265 250 435 520 594 368 C760 210 933 524 1178 342" fill="none" stroke="#31384f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M120 408 C265 250 435 520 594 368 C760 210 933 524 1178 342" fill="none" stroke="#ffd26a" stroke-width="7" stroke-linecap="round" stroke-dasharray="28 26"/>
+  <g transform="translate(80 314)"><circle r="54" fill="#e65d47"/><text y="10" text-anchor="middle" class="week" font-size="26">1-4</text><text x="0" y="104" text-anchor="middle" class="t" font-size="25">동네 검증</text><text x="0" y="136" text-anchor="middle" class="s" font-size="18">맞춤 수요</text></g>
+  <g transform="translate(295 245)"><circle r="54" fill="#2f8fbf"/><text y="10" text-anchor="middle" class="week" font-size="26">5-8</text><text x="0" y="104" text-anchor="middle" class="t" font-size="25">오피스</text><text x="0" y="136" text-anchor="middle" class="s" font-size="18">속도와 온도</text></g>
+  <g transform="translate(500 433)"><circle r="54" fill="#ec8f42"/><text y="10" text-anchor="middle" class="week" font-size="26">9-12</text><text x="0" y="104" text-anchor="middle" class="t" font-size="25">투자 피치</text><text x="0" y="136" text-anchor="middle" class="s" font-size="18">초기 증거 묶기</text></g>
+  <g transform="translate(706 287)"><circle r="54" fill="#8e6bd6"/><text y="10" text-anchor="middle" class="week" font-size="26">13-16</text><text x="0" y="104" text-anchor="middle" class="t" font-size="25">대학가</text><text x="0" y="136" text-anchor="middle" class="s" font-size="18">메뉴와 기억</text></g>
+  <g transform="translate(915 445)"><circle r="54" fill="#37a77a"/><text y="10" text-anchor="middle" class="week" font-size="26">17-20</text><text x="0" y="104" text-anchor="middle" class="t" font-size="25">프랜차이즈</text><text x="0" y="136" text-anchor="middle" class="s" font-size="18">반복 운영</text></g>
+  <g transform="translate(1168 267)"><circle r="64" fill="#202335"/><text y="10" text-anchor="middle" class="week" font-size="26">21-24</text><text x="0" y="118" text-anchor="middle" class="t" font-size="25">전국 출시</text><text x="0" y="150" text-anchor="middle" class="s" font-size="18">엔딩 타이틀</text></g>
+  <rect x="110" y="642" width="1080" height="62" rx="24" fill="#ffffff" opacity="0.82"/>
+  <text x="650" y="682" text-anchor="middle" class="s" font-size="23">중간 목표는 Week 12 투자 피치, 최종 목표는 Week 24 National Launch Day</text>
+</svg>
