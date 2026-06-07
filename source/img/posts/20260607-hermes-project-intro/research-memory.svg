@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES 리서치와 메모리</title>
+  <desc id="desc">네이버 리포트, RAG, 전략 인텔리전스, 쥬 메모리, 정책 규칙이 연결되는 흐름</desc>
+  <style><![CDATA[.h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#edf5f2}.t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:850;fill:#edf5f2}.s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:650;fill:#9aaea8}.box{fill:#10191f;stroke:#9ab8c8;stroke-width:4}.gold{stroke:#d8b56d}.mint{stroke:#5ee0c2}]]></style>
+  <rect width="1300" height="720" rx="42" fill="#0c1218"/>
+  <text x="82" y="82" class="h" font-size="48">근거를 모으고, 기억하고, 다음 판단에 다시 넣는다</text>
+  <text x="84" y="124" class="s" font-size="24">에르메스는 “오늘 뭐 사지?”보다 “왜 그런 판단을 했고, 다음엔 뭘 고칠지”를 남기는 쪽에 가깝다.</text>
+  <g transform="translate(90 210)"><rect class="box" width="260" height="150" rx="28"/><text x="130" y="60" text-anchor="middle" class="t" font-size="30">리포트 수집</text><text x="130" y="102" text-anchor="middle" class="s" font-size="21">네이버 증권 리포트</text></g>
+  <g transform="translate(390 210)"><rect class="box gold" width="260" height="150" rx="28"/><text x="130" y="60" text-anchor="middle" class="t" font-size="30">RAG 검색</text><text x="130" y="102" text-anchor="middle" class="s" font-size="21">문단·출처 기반 근거</text></g>
+  <g transform="translate(690 210)"><rect class="box mint" width="260" height="150" rx="28"/><text x="130" y="60" text-anchor="middle" class="t" font-size="30">전략 인텔리전스</text><text x="130" y="102" text-anchor="middle" class="s" font-size="21">후보·점수·시장 맥락</text></g>
+  <g transform="translate(990 210)"><rect class="box" width="220" height="150" rx="28"/><text x="110" y="60" text-anchor="middle" class="t" font-size="30">쥬 판단</text><text x="110" y="102" text-anchor="middle" class="s" font-size="21">블록 제안</text></g>
+  <g transform="translate(270 470)"><rect class="box mint" width="300" height="150" rx="28"/><text x="150" y="60" text-anchor="middle" class="t" font-size="30">투자 메모리</text><text x="150" y="102" text-anchor="middle" class="s" font-size="21">일지·반성·인사이트</text></g>
+  <g transform="translate(730 470)"><rect class="box gold" width="300" height="150" rx="28"/><text x="150" y="60" text-anchor="middle" class="t" font-size="30">정책 규칙</text><text x="150" y="102" text-anchor="middle" class="s" font-size="21">반복 실수 방지</text></g>
+  <path d="M350 285 H390" stroke="#9ab8c8" stroke-width="8"/><path d="M650 285 H690" stroke="#9ab8c8" stroke-width="8"/><path d="M950 285 H990" stroke="#9ab8c8" stroke-width="8"/>
+  <path d="M1100 360 C1060 445 1000 480 1030 545" fill="none" stroke="#d8b56d" stroke-width="7"/><path d="M730 545 H570" stroke="#d8b56d" stroke-width="7"/><path d="M420 470 C395 420 408 380 455 360" fill="none" stroke="#5ee0c2" stroke-width="7"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES 블록 트레이딩 루프</title>
+  <desc id="desc">리서치에서 블록 의도, 안전 게이트, 규칙 실행, 회고 메모리로 이어지는 루프</desc>
+  <defs><marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#d8b56d"/></marker><style><![CDATA[.h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#20251f}.t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:850;fill:#20251f}.s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:650;fill:#53625f}.card{fill:#fff;stroke:#d8b56d;stroke-width:5}]]></style></defs>
+  <rect width="1300" height="720" rx="42" fill="#fff8e8"/>
+  <text x="650" y="78" text-anchor="middle" class="h" font-size="48">매매 단위는 포지션이 아니라 블록</text>
+  <text x="650" y="120" text-anchor="middle" class="s" font-size="24">심볼 하나도 여러 가설·진입·목표·스탑을 가진 독립 블록으로 나눠 관리한다.</text>
+  <path d="M250 286 C360 156 585 142 650 242 C724 356 930 170 1040 286" fill="none" stroke="#d8b56d" stroke-width="8" marker-end="url(#a)" opacity=".85"/>
+  <path d="M1040 410 C900 602 386 602 250 410" fill="none" stroke="#d8b56d" stroke-width="8" marker-end="url(#a)" opacity=".85"/>
+  <g transform="translate(86 230)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">1. 리서치</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">보고서·시장·계좌</text></g>
+  <g transform="translate(386 170)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">2. 쥬 판단</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">블록 의도 생성</text></g>
+  <g transform="translate(686 170)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">3. 안전 게이트</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">현금·중복·킬스위치</text></g>
+  <g transform="translate(986 230)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">4. 실행</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">KIS/Binance 주문</text></g>
+  <g transform="translate(686 468)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">5. Rule Tick</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">타겟·스탑 감시</text></g>
+  <g transform="translate(386 468)"><rect class="card" width="250" height="132" rx="26"/><text x="125" y="50" class="t" font-size="28" text-anchor="middle">6. 회고</text><text x="125" y="88" class="s" font-size="20" text-anchor="middle">성과·실패·정책화</text></g>
+  <text x="650" y="666" text-anchor="middle" class="s" font-size="22">LLM은 의도를 만들고, 주문 제약과 사후 관리는 규칙이 붙잡는 구조</text>
+</svg>

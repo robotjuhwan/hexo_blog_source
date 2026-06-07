@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="760" viewBox="0 0 1300 760" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES 아키텍처</title>
+  <desc id="desc">웹 UI, FastAPI, 쥬 매니저, 리서치, 메모리, 거래소 API가 연결되는 구조</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#5ee0c2"/></marker>
+    <style><![CDATA[
+      .h{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:900;fill:#edf5f2}.t{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:850;fill:#edf5f2}.s{font-family:'Pretendard','Noto Sans KR',sans-serif;font-weight:650;fill:#9aaea8}.box{fill:#10191f;stroke:#5ee0c2;stroke-opacity:.33;stroke-width:4}
+    ]]></style>
+  </defs>
+  <rect width="1300" height="760" rx="42" fill="#0b1114"/>
+  <text x="76" y="82" class="h" font-size="48">에르메스는 여러 조각을 묶는 Control Plane</text>
+  <text x="78" y="124" class="s" font-size="24">화면 하나가 전부가 아니라, 뒤에 러너·DB·리서치·거래소 어댑터가 같이 돈다.</text>
+  <g transform="translate(78 210)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">Web UI</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">대시보드·조작실</text></g>
+  <g transform="translate(402 210)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">FastAPI</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">상태·명령 API</text></g>
+  <g transform="translate(726 144)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">쥬 Manager</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">블록 의도 생성</text></g>
+  <g transform="translate(726 334)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">Rule Executor</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">타겟·스탑 감시</text></g>
+  <g transform="translate(1048 210)"><rect class="box" width="190" height="130" rx="26"/><text x="95" y="54" class="t" font-size="26" text-anchor="middle">KIS</text><text x="95" y="92" class="s" font-size="18" text-anchor="middle">국장 주문</text></g>
+  <g transform="translate(1048 390)"><rect class="box" width="190" height="130" rx="26"/><text x="95" y="54" class="t" font-size="26" text-anchor="middle">Binance</text><text x="95" y="92" class="s" font-size="18" text-anchor="middle">크립토 블록</text></g>
+  <g transform="translate(230 545)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">Research</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">리포트·RAG·전략</text></g>
+  <g transform="translate(548 545)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">Memory</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">일지·반성·정책</text></g>
+  <g transform="translate(866 545)"><rect class="box" width="240" height="130" rx="26"/><text x="120" y="54" class="t" font-size="28" text-anchor="middle">SQLite DBs</text><text x="120" y="92" class="s" font-size="19" text-anchor="middle">블록·성능·근거</text></g>
+  <path d="M318 275 H392" stroke="#5ee0c2" stroke-width="7" marker-end="url(#a)"/><path d="M642 275 C680 250 690 227 716 210" stroke="#5ee0c2" stroke-width="7" fill="none" marker-end="url(#a)"/><path d="M846 274 V324" stroke="#5ee0c2" stroke-width="7" marker-end="url(#a)"/><path d="M966 394 H1038" stroke="#5ee0c2" stroke-width="7" marker-end="url(#a)"/><path d="M966 255 H1038" stroke="#5ee0c2" stroke-width="7" marker-end="url(#a)"/><path d="M350 545 C430 455 550 405 716 395" stroke="#5ee0c2" stroke-width="5" fill="none" marker-end="url(#a)" opacity=".85"/><path d="M668 545 C710 500 758 474 813 464" stroke="#5ee0c2" stroke-width="5" fill="none" marker-end="url(#a)" opacity=".85"/><path d="M986 545 C970 505 934 482 900 462" stroke="#5ee0c2" stroke-width="5" fill="none" marker-end="url(#a)" opacity=".85"/>
+</svg>
