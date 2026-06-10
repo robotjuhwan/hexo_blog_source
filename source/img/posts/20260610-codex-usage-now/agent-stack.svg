@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
+  <title id="title">Codex agent stack</title>
+  <desc id="desc">Layered view of how Codex, agents, tools, repositories, and publishing are used.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f1e4"/>
+      <stop offset="1" stop-color="#ecf7f3"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#102d36" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="660" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, 'Noto Serif KR', serif" font-size="43" font-weight="700" fill="#102d36">내가 체감하는 코덱스 스택</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#526068">화면 하나의 챗봇이라기보다, 여러 층이 쌓인 작업 장치에 가깝다.</text>
+
+  <g transform="translate(130 160)" filter="url(#shadow)" font-family="Arial, 'Apple SD Gothic Neo', sans-serif">
+    <rect x="0" y="0" width="840" height="78" rx="24" fill="#102d36"/>
+    <text x="34" y="49" font-size="26" font-weight="700" fill="#fff8e6">1. 내 말</text>
+    <text x="190" y="49" font-size="19" fill="#bfeee2">대충 이런 거 해줘, 글로 올려줘, 왜 안 되지 같은 시작점</text>
+
+    <rect x="38" y="98" width="764" height="78" rx="24" fill="#f3c565"/>
+    <text x="72" y="147" font-size="26" font-weight="700" fill="#102d36">2. Codex</text>
+    <text x="232" y="147" font-size="19" fill="#42351d">맥락을 읽고 필요한 파일과 명령을 찾아가는 층</text>
+
+    <rect x="76" y="196" width="688" height="78" rx="24" fill="#5ed3bd"/>
+    <text x="110" y="245" font-size="26" font-weight="700" fill="#102d36">3. OMX와 에이전트</text>
+    <text x="372" y="245" font-size="19" fill="#102d36">리뷰, 실행, 검증을 역할처럼 나눔</text>
+
+    <rect x="114" y="294" width="612" height="78" rx="24" fill="#fff8e6"/>
+    <text x="148" y="343" font-size="26" font-weight="700" fill="#102d36">4. 도구</text>
+    <text x="292" y="343" font-size="19" fill="#526068">Git, 빌드, 테스트, 브라우저, 이미지 생성</text>
+
+    <rect x="152" y="392" width="536" height="78" rx="24" fill="#f7ded8"/>
+    <text x="186" y="441" font-size="26" font-weight="700" fill="#102d36">5. 산출물</text>
+    <text x="346" y="441" font-size="19" fill="#526068">코드, 문서, 블로그, 배포된 페이지</text>
+  </g>
+</svg>

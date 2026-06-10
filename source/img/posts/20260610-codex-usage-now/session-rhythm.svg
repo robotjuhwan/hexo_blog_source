@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
+  <title id="title">Codex working rhythm</title>
+  <desc id="desc">A loop showing how Codex usage moves from vague requests to deployed output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="1" stop-color="#243f48"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f3c565"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="600" rx="34" fill="url(#bg)"/>
+  <text x="70" y="80" font-family="Georgia, 'Noto Serif KR', serif" font-size="44" font-weight="700" fill="#fff8e6">사용 리듬이 바뀐 지점</text>
+  <text x="72" y="118" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#bfeee2">예전에는 답변을 받았다면, 요즘은 작업 루프를 굴린다.</text>
+
+  <g font-family="Arial, 'Apple SD Gothic Neo', sans-serif" text-anchor="middle">
+    <g transform="translate(151 292)">
+      <circle r="76" fill="#fff8e6"/>
+      <text y="-14" font-size="24" font-weight="700" fill="#101820">말로 던짐</text>
+      <text y="20" font-size="16" fill="#526068">애매한 아이디어</text>
+      <text y="44" font-size="16" fill="#526068">문제 설명</text>
+    </g>
+    <g transform="translate(351 292)">
+      <circle r="76" fill="#5ed3bd"/>
+      <text y="-14" font-size="24" font-weight="700" fill="#101820">뒤져봄</text>
+      <text y="20" font-size="16" fill="#102d36">파일, 로그, 문서</text>
+      <text y="44" font-size="16" fill="#102d36">현재 상태 확인</text>
+    </g>
+    <g transform="translate(551 292)">
+      <circle r="76" fill="#f3c565"/>
+      <text y="-14" font-size="24" font-weight="700" fill="#101820">고침</text>
+      <text y="20" font-size="16" fill="#42351d">코드, 글, 이미지</text>
+      <text y="44" font-size="16" fill="#42351d">구조까지 손봄</text>
+    </g>
+    <g transform="translate(751 292)">
+      <circle r="76" fill="#f7ded8"/>
+      <text y="-14" font-size="24" font-weight="700" fill="#101820">검증</text>
+      <text y="20" font-size="16" fill="#526068">빌드, 테스트</text>
+      <text y="44" font-size="16" fill="#526068">링크 확인</text>
+    </g>
+    <g transform="translate(951 292)">
+      <circle r="76" fill="#fff8e6"/>
+      <text y="-14" font-size="24" font-weight="700" fill="#101820">남김</text>
+      <text y="20" font-size="16" fill="#526068">커밋, 배포</text>
+      <text y="44" font-size="16" fill="#526068">다음 작업 재료</text>
+    </g>
+  </g>
+  <g stroke="#f3c565" stroke-width="5" marker-end="url(#arrow)" fill="none" opacity="0.95">
+    <path d="M228 292 H270"/>
+    <path d="M428 292 H470"/>
+    <path d="M628 292 H670"/>
+    <path d="M828 292 H870"/>
+    <path d="M948 382 C848 505 320 505 179 384"/>
+  </g>
+  <rect x="148" y="465" width="804" height="56" rx="28" fill="#ffffff" opacity="0.09"/>
+  <text x="550" y="500" text-anchor="middle" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#fff8e6">결과물이 생기면 다음 질문이 아니라 다음 작업이 시작된다.</text>
+</svg>

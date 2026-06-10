@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+  <title id="title">Codex usage map</title>
+  <desc id="desc">A map of recent Codex work lanes and their purposes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf1dc"/>
+      <stop offset="1" stop-color="#d9f1e8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#17313a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="720" rx="36" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, 'Noto Serif KR', serif" font-size="44" font-weight="700" fill="#14242b">요즘 코덱스가 붙어 있는 작업들</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#526068">로그 원문은 빼고, 프로젝트의 목적만 공개용으로 요약했다.</text>
+
+  <g transform="translate(82 164)" filter="url(#shadow)">
+    <rect width="286" height="185" rx="26" fill="#102d36"/>
+    <text x="28" y="48" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#fff8e6">HERMES</text>
+    <text x="28" y="84" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#bfeee2">자산관리와 매매 운영실</text>
+    <text x="28" y="121" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#fff8e6">KIS, Binance, 쥬, 메모리,</text>
+    <text x="28" y="146" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#fff8e6">안전장치를 한 흐름으로 묶기</text>
+  </g>
+
+  <g transform="translate(408 164)" filter="url(#shadow)">
+    <rect width="286" height="185" rx="26" fill="#f2b556"/>
+    <text x="28" y="48" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#14242b">Blog</text>
+    <text x="28" y="84" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#3a352c">글쓰기와 배포 파이프라인</text>
+    <text x="28" y="121" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#14242b">초안, 이미지, Hexo 빌드,</text>
+    <text x="28" y="146" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#14242b">GitHub Pages 확인까지 한 번에</text>
+  </g>
+
+  <g transform="translate(734 164)" filter="url(#shadow)">
+    <rect width="286" height="185" rx="26" fill="#5fbfae"/>
+    <text x="28" y="48" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#102d36">BoongBoongGo</text>
+    <text x="28" y="84" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#17313a">게임 아이디어를 문서와 그림으로</text>
+    <text x="28" y="121" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">24주 캠페인, 코어 루프,</text>
+    <text x="28" y="146" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">픽셀 감성의 작업물 정리</text>
+  </g>
+
+  <g transform="translate(214 402)" filter="url(#shadow)">
+    <rect width="286" height="185" rx="26" fill="#fff8e6"/>
+    <text x="28" y="48" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#102d36">Ju Office</text>
+    <text x="28" y="84" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#526068">에이전트를 조직처럼 쓰는 실험</text>
+    <text x="28" y="121" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">OMX, 팀 작업, 역할 분리,</text>
+    <text x="28" y="146" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">작은 자동 회사 만들기</text>
+  </g>
+
+  <g transform="translate(602 402)" filter="url(#shadow)">
+    <rect width="286" height="185" rx="26" fill="#f7ded8"/>
+    <text x="28" y="48" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#102d36">작은 자동화</text>
+    <text x="28" y="84" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#526068">반복 작업을 조용히 밀어내기</text>
+    <text x="28" y="121" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">일어 공부, TTS 분리, 파일 정리,</text>
+    <text x="28" y="146" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="16" fill="#102d36">귀찮은 잔일 줄이기</text>
+  </g>
+
+  <path d="M214 621 C374 670 720 670 890 621" fill="none" stroke="#102d36" stroke-width="4" stroke-linecap="round" opacity="0.24"/>
+  <text x="350" y="671" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#102d36">공통점: 말로 던진 일을 파일, 테스트, 배포물로 바꾸는 것</text>
+</svg>
