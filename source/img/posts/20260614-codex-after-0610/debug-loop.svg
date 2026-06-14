@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Debug loop</title>
+  <desc id="desc">How Codex was used to inspect and fix operating issues.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f8eed7"/><stop offset="1" stop-color="#d8f2e9"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#102d36"/></marker></defs>
+  <rect width="1100" height="620" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#102d36">이번 며칠의 반복 패턴</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#52646a">문제를 발견하면 바로 로그를 보고, 구조를 고치고, 다시 운영 상태를 확인했다.</text>
+  <g transform="translate(86 205)" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" text-anchor="middle">
+    <g transform="translate(80 92)"><circle r="76" fill="#102d36"/><text y="-12" font-size="23" font-weight="800" fill="#fff9ed">느낌</text><text y="20" font-size="16" fill="#bdebdc">뭔가 이상함</text></g>
+    <g transform="translate(280 92)"><circle r="76" fill="#5ed3bd"/><text y="-12" font-size="23" font-weight="800" fill="#102d36">로그</text><text y="20" font-size="16" fill="#102d36">상태/에러 확인</text></g>
+    <g transform="translate(480 92)"><circle r="76" fill="#f3c565"/><text y="-12" font-size="23" font-weight="800" fill="#102d36">수정</text><text y="20" font-size="16" fill="#42351d">코드/설정 변경</text></g>
+    <g transform="translate(680 92)"><circle r="76" fill="#f7ded8"/><text y="-12" font-size="23" font-weight="800" fill="#102d36">검증</text><text y="20" font-size="16" fill="#52646a">테스트/재시작</text></g>
+    <g transform="translate(880 92)"><circle r="76" fill="#fff9ed"/><text y="-12" font-size="23" font-weight="800" fill="#102d36">기록</text><text y="20" font-size="16" fill="#52646a">메모리/글</text></g>
+  </g>
+  <g stroke="#102d36" stroke-width="5" marker-end="url(#arrow)" fill="none"><path d="M244 297 H290"/><path d="M444 297 H490"/><path d="M644 297 H690"/><path d="M844 297 H890"/><path d="M970 382 C800 510 340 510 165 382"/></g>
+  <rect x="176" y="505" width="748" height="52" rx="26" fill="#102d36" opacity="0.90"/>
+  <text x="550" y="539" text-anchor="middle" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#fff9ed">이번에는 “고쳐줘”보다 “운영이 왜 이렇게 보이는지 같이 보자”가 많았다.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">Period map</title>
+  <desc id="desc">Summary map for Codex work between June 10 and June 14.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5dd"/><stop offset="1" stop-color="#def5ee"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#10242d" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1100" height="650" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#10242d">6월 10일 이후, 일이 더 운영 쪽으로 갔다</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#52646a">짧은 며칠인데 코덱스 사용의 중심이 글쓰기에서 HERMES 운영 점검으로 확 기울었다.</text>
+  <g transform="translate(85 178)" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" filter="url(#shadow)">
+    <g><rect width="205" height="290" rx="26" fill="#102d36"/><text x="28" y="46" font-size="26" font-weight="800" fill="#fff9ed">Jun 10</text><text x="28" y="88" font-size="17" fill="#bdebdc">이전 글 발행</text><text x="28" y="124" font-size="16" fill="#fff9ed">요즘 코덱스 사용상황을</text><text x="28" y="149" font-size="16" fill="#fff9ed">한 번 정리했다.</text><text x="28" y="212" font-size="15" fill="#f3c565">blog → baseline</text></g>
+    <g transform="translate(235 0)"><rect width="205" height="290" rx="26" fill="#f3c565"/><text x="28" y="46" font-size="26" font-weight="800" fill="#102d36">Jun 11</text><text x="28" y="88" font-size="17" fill="#3f3520">HERMES 다이어트</text><text x="28" y="124" font-size="16" fill="#102d36">리서치, DB, UI,</text><text x="28" y="149" font-size="16" fill="#102d36">운영 프로세스를 정리.</text><text x="28" y="212" font-size="15" fill="#102d36">research → structure</text></g>
+    <g transform="translate(470 0)"><rect width="205" height="290" rx="26" fill="#5ed3bd"/><text x="28" y="46" font-size="26" font-weight="800" fill="#102d36">Jun 12</text><text x="28" y="88" font-size="17" fill="#15313a">Jue 루프 강화</text><text x="28" y="124" font-size="16" fill="#102d36">KIS/Binance 판단,</text><text x="28" y="149" font-size="16" fill="#102d36">메모리, 복기, 검증.</text><text x="28" y="212" font-size="15" fill="#102d36">blocks → memory</text></g>
+    <g transform="translate(705 0)"><rect width="205" height="290" rx="26" fill="#fff9ed"/><text x="28" y="46" font-size="26" font-weight="800" fill="#102d36">Jun 13-14</text><text x="28" y="88" font-size="17" fill="#52646a">운영 확인</text><text x="28" y="124" font-size="16" fill="#102d36">ads.txt, 배포,</text><text x="28" y="149" font-size="16" fill="#102d36">새 글로 다시 기록.</text><text x="28" y="212" font-size="15" fill="#102d36">ops → publish</text></g>
+  </g>
+  <rect x="236" y="540" width="628" height="54" rx="27" fill="#102d36" opacity="0.9"/>
+  <text x="550" y="575" text-anchor="middle" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#fff9ed">핵심 변화: 코덱스가 글쓰기 도구에서 운영 관제 도구로 더 가까워졌다.</text>
+</svg>

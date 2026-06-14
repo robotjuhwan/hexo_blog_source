@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Public safe filter</title>
+  <desc id="desc">Public-safe filter for transforming logs into a blog post.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf1dc"/><stop offset="1" stop-color="#eef8f4"/></linearGradient></defs>
+  <rect width="1100" height="620" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#102d36">로그를 글로 만들 때 거치는 필터</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#52646a">이번 글은 원문 로그가 아니라 공개 가능한 목적과 흐름만 남겼다.</text>
+  <g transform="translate(115 175)" font-family="Arial, 'Apple SD Gothic Neo', sans-serif">
+    <rect width="360" height="300" rx="28" fill="#102d36"/><text x="38" y="58" font-size="28" font-weight="800" fill="#fff9ed">Private Logs</text><text x="38" y="110" font-size="18" fill="#bdebdc">로컬 경로</text><text x="38" y="146" font-size="18" fill="#bdebdc">계좌/잔고/종목 세부</text><text x="38" y="182" font-size="18" fill="#bdebdc">키와 인증 관련 흔적</text><text x="38" y="218" font-size="18" fill="#bdebdc">긴 내부 지시문</text>
+    <path d="M410 150 H548" stroke="#102d36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M548 150 l-26 -18 v36 z" fill="#102d36"/>
+    <rect x="605" y="0" width="360" height="300" rx="28" fill="#5ed3bd"/><text x="643" y="58" font-size="28" font-weight="800" fill="#102d36">Public Story</text><text x="643" y="110" font-size="18" fill="#102d36">무슨 목적이었나</text><text x="643" y="146" font-size="18" fill="#102d36">어떤 구조가 생겼나</text><text x="643" y="182" font-size="18" fill="#102d36">무슨 문제가 반복됐나</text><text x="643" y="218" font-size="18" fill="#102d36">다음에는 뭘 봐야 하나</text>
+  </g>
+  <text x="550" y="550" text-anchor="middle" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#102d36">기록은 남기되, 밖에 나가면 안 되는 정보는 남기지 않는 쪽.</text>
+</svg>

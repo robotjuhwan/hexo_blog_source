@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" role="img" aria-labelledby="title desc">
+  <title id="title">Blog ops</title>
+  <desc id="desc">Blog publishing and ads.txt operations.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102d36"/><stop offset="1" stop-color="#0d161d"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/></filter></defs>
+  <rect width="1100" height="640" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#fff9ed">블로그는 글쓰기에서 운영으로</text>
+  <text x="72" y="116" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#bdebdc">글을 올리는 것뿐 아니라, 검색/광고/배포 확인까지 체크하게 됐다.</text>
+  <g transform="translate(95 175)" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" filter="url(#shadow)">
+    <rect width="260" height="290" rx="28" fill="#fff9ed"/><text x="34" y="56" font-size="28" font-weight="800" fill="#102d36">Post</text><text x="34" y="104" font-size="17" fill="#52646a">로그를 글로 바꾸기</text><text x="34" y="136" font-size="17" fill="#52646a">이미지와 함께 정리</text><text x="34" y="208" font-size="15" fill="#102d36">Markdown + Hexo</text>
+    <g transform="translate(320 0)"><rect width="260" height="290" rx="28" fill="#5ed3bd"/><text x="34" y="56" font-size="28" font-weight="800" fill="#102d36">Deploy</text><text x="34" y="104" font-size="17" fill="#102d36">GitHub Pages로 반영</text><text x="34" y="136" font-size="17" fill="#102d36">라이브 링크 확인</text><text x="34" y="208" font-size="15" fill="#102d36">build → push → curl</text></g>
+    <g transform="translate(640 0)"><rect width="260" height="290" rx="28" fill="#f3c565"/><text x="34" y="56" font-size="28" font-weight="800" fill="#102d36">AdSense</text><text x="34" y="104" font-size="17" fill="#42351d">ads.txt 상태 확인</text><text x="34" y="136" font-size="17" fill="#42351d">크롤링 대기 이해</text><text x="34" y="208" font-size="15" fill="#102d36">root /ads.txt OK</text></g>
+  </g>
+  <text x="550" y="558" text-anchor="middle" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#fff9ed">블로그도 이제 그냥 글판이 아니라, 작은 운영 시스템처럼 다룬다.</text>
+</svg>
