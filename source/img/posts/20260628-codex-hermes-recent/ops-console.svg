@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Operations console</title>
+  <desc id="desc">A stylized operations console for HERMES showing runners, memory, wiki, warnings, and trading lanes.</desc>
+  <rect width="1280" height="620" rx="28" fill="#0f1f1b"/>
+  <rect x="70" y="68" width="1140" height="484" rx="26" fill="#f7efe1"/>
+  <rect x="98" y="104" width="230" height="412" rx="18" fill="#10251f"/>
+  <rect x="356" y="104" width="824" height="412" rx="18" fill="#dceadf"/>
+  <g font-family="'Noto Sans KR', sans-serif">
+    <text x="128" y="152" font-size="28" font-weight="800" fill="#fff8e7">HERMES</text>
+    <rect x="126" y="188" width="174" height="42" rx="12" fill="#f0a847"/>
+    <text x="213" y="216" text-anchor="middle" font-size="18" font-weight="800" fill="#10251f">Runtime</text>
+    <rect x="126" y="246" width="174" height="42" rx="12" fill="#25483e"/>
+    <text x="213" y="274" text-anchor="middle" font-size="18" font-weight="800" fill="#f7efe1">Jue Wiki</text>
+    <rect x="126" y="304" width="174" height="42" rx="12" fill="#25483e"/>
+    <text x="213" y="332" text-anchor="middle" font-size="18" font-weight="800" fill="#f7efe1">Memory</text>
+    <rect x="126" y="362" width="174" height="42" rx="12" fill="#25483e"/>
+    <text x="213" y="390" text-anchor="middle" font-size="18" font-weight="800" fill="#f7efe1">Trading</text>
+    <text x="392" y="154" font-size="30" font-weight="800" fill="#10251f">운영자가 보고 싶은 화면</text>
+    <rect x="392" y="194" width="218" height="104" rx="16" fill="#10251f"/>
+    <text x="501" y="236" text-anchor="middle" font-size="22" font-weight="800" fill="#fff8e7">러너 상태</text>
+    <text x="501" y="266" text-anchor="middle" font-size="17" fill="#b8dcca">돌고 있나, 멈췄나</text>
+    <rect x="640" y="194" width="218" height="104" rx="16" fill="#4f9d88"/>
+    <text x="749" y="236" text-anchor="middle" font-size="22" font-weight="800" fill="#10251f">쥬 근거</text>
+    <text x="749" y="266" text-anchor="middle" font-size="17" fill="#10251f">무엇을 읽었나</text>
+    <rect x="888" y="194" width="218" height="104" rx="16" fill="#f0a847"/>
+    <text x="997" y="236" text-anchor="middle" font-size="22" font-weight="800" fill="#10251f">경고</text>
+    <text x="997" y="266" text-anchor="middle" font-size="17" fill="#10251f">노란색의 이유</text>
+    <rect x="392" y="334" width="342" height="118" rx="16" fill="#fff8e7"/>
+    <text x="420" y="378" font-size="21" font-weight="800" fill="#10251f">lane별 상태</text>
+    <text x="420" y="414" font-size="17" fill="#31544a">국장, Binance, Upbit를 섞지 않고 보기</text>
+    <rect x="764" y="334" width="342" height="118" rx="16" fill="#fff8e7"/>
+    <text x="792" y="378" font-size="21" font-weight="800" fill="#10251f">LLM 사용량</text>
+    <text x="792" y="414" font-size="17" fill="#31544a">똑똑함과 비용 사이의 균형</text>
+  </g>
+</svg>

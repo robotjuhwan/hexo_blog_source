@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge layer</title>
+  <desc id="desc">Research, RAG, Jue Wiki, and memory feed trading judgment.</desc>
+  <rect width="1280" height="620" rx="28" fill="#f7efe1"/>
+  <text x="72" y="78" font-family="'Noto Sans KR', sans-serif" font-size="36" font-weight="800" fill="#10251f">자료 더미가 아니라 지식 레이어</text>
+  <g font-family="'Noto Sans KR', sans-serif">
+    <rect x="88" y="142" width="250" height="120" rx="22" fill="#10251f"/>
+    <text x="213" y="190" text-anchor="middle" font-size="25" font-weight="800" fill="#fff8e7">리포트</text>
+    <text x="213" y="226" text-anchor="middle" font-size="18" fill="#b8dcca">증권사, 시장 자료</text>
+    <rect x="88" y="332" width="250" height="120" rx="22" fill="#16362e"/>
+    <text x="213" y="380" text-anchor="middle" font-size="25" font-weight="800" fill="#fff8e7">거래 기록</text>
+    <text x="213" y="416" text-anchor="middle" font-size="18" fill="#b8dcca">진입, 청산, 비용</text>
+    <rect x="516" y="142" width="250" height="120" rx="22" fill="#4f9d88"/>
+    <text x="641" y="190" text-anchor="middle" font-size="25" font-weight="800" fill="#10251f">RAG</text>
+    <text x="641" y="226" text-anchor="middle" font-size="18" fill="#10251f">관련 기억 검색</text>
+    <rect x="516" y="332" width="250" height="120" rx="22" fill="#f0a847"/>
+    <text x="641" y="380" text-anchor="middle" font-size="25" font-weight="800" fill="#10251f">Jue Wiki</text>
+    <text x="641" y="416" text-anchor="middle" font-size="18" fill="#10251f">작전 노트와 플레이북</text>
+    <rect x="944" y="230" width="250" height="134" rx="22" fill="#10251f"/>
+    <text x="1069" y="284" text-anchor="middle" font-size="27" font-weight="800" fill="#fff8e7">판단 루프</text>
+    <text x="1069" y="322" text-anchor="middle" font-size="18" fill="#b8dcca">쥬가 다시 읽고 결정</text>
+  </g>
+  <g stroke="#10251f" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.86">
+    <path d="M338 202 H516"/>
+    <path d="M338 392 H516"/>
+    <path d="M766 202 C856 202 880 260 944 274"/>
+    <path d="M766 392 C856 392 880 334 944 320"/>
+  </g>
+  <g fill="#10251f">
+    <path d="M508 202 l-18 -12 v24z"/>
+    <path d="M508 392 l-18 -12 v24z"/>
+    <path d="M936 274 l-18 -12 v24z"/>
+    <path d="M936 320 l-18 -12 v24z"/>
+  </g>
+</svg>
