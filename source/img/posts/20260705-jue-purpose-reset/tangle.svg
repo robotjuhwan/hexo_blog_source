@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Tangled system</title>
+  <desc id="desc">A tangled system where more model calls produce more modules, warnings, repair loops, and UI.</desc>
+  <rect width="1280" height="620" rx="28" fill="#f6ead6"/>
+  <text x="72" y="78" font-family="'Noto Sans KR', sans-serif" font-size="36" font-weight="800" fill="#10251f">모델을 더 돌리면 생기는 꼬임</text>
+  <g fill="none" stroke="#28493f" stroke-width="7" stroke-linecap="round" opacity="0.55">
+    <path d="M220 248 C420 78 704 450 1010 182"/>
+    <path d="M214 390 C454 198 618 150 1016 408"/>
+    <path d="M338 152 C610 524 762 74 944 468"/>
+    <path d="M164 312 C430 520 860 92 1120 308"/>
+  </g>
+  <g font-family="'Noto Sans KR', sans-serif" font-size="21" font-weight="800">
+    <rect x="118" y="196" width="210" height="82" rx="18" fill="#10251f"/>
+    <text x="223" y="246" text-anchor="middle" fill="#f6ead6">더 좋은 GPT</text>
+    <rect x="420" y="106" width="210" height="82" rx="18" fill="#e7b36a"/>
+    <text x="525" y="156" text-anchor="middle" fill="#10251f">새 모듈</text>
+    <rect x="750" y="178" width="210" height="82" rx="18" fill="#6d9c87"/>
+    <text x="855" y="228" text-anchor="middle" fill="#10251f">새 검증</text>
+    <rect x="950" y="340" width="210" height="82" rx="18" fill="#10251f"/>
+    <text x="1055" y="390" text-anchor="middle" fill="#f6ead6">새 수리 루프</text>
+    <rect x="478" y="414" width="250" height="82" rx="18" fill="#e7b36a"/>
+    <text x="603" y="464" text-anchor="middle" fill="#10251f">더 복잡한 UI</text>
+    <rect x="164" y="416" width="220" height="82" rx="18" fill="#6d9c87"/>
+    <text x="274" y="466" text-anchor="middle" fill="#10251f">더 많은 경고</text>
+  </g>
+</svg>

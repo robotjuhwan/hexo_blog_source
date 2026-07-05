@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Reset layers</title>
+  <desc id="desc">Three separated Jue layers: companion, analyst, operations.</desc>
+  <rect width="1280" height="620" rx="28" fill="#f6ead6"/>
+  <text x="72" y="78" font-family="'Noto Sans KR', sans-serif" font-size="36" font-weight="800" fill="#10251f">쥬를 다시 세 층으로 나누기</text>
+  <g font-family="'Noto Sans KR', sans-serif">
+    <rect x="150" y="142" width="980" height="110" rx="28" fill="#e7b36a"/>
+    <text x="210" y="206" font-size="30" font-weight="900" fill="#10251f">1. 동반자 쥬</text>
+    <text x="520" y="206" font-size="22" fill="#10251f">불안, 충동, 외로움을 먼저 정리한다</text>
+    <rect x="150" y="286" width="980" height="110" rx="28" fill="#6d9c87"/>
+    <text x="210" y="350" font-size="30" font-weight="900" fill="#10251f">2. 분석가 쥬</text>
+    <text x="520" y="350" font-size="22" fill="#10251f">근거, 반론, 자료 공백을 분리한다</text>
+    <rect x="150" y="430" width="980" height="110" rx="28" fill="#10251f"/>
+    <text x="210" y="494" font-size="30" font-weight="900" fill="#f6ead6">3. 운영 쥬</text>
+    <text x="520" y="494" font-size="22" fill="#dbe8d6">러너, 검증, 자가수리, 알림을 맡는다</text>
+  </g>
+  <text x="640" y="590" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="20" fill="#4e7165">목적이 섞이면 쥬는 똑똑해져도 피곤해진다</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Jue purpose reset</title>
+  <desc id="desc">A cover image about resetting Jue from profit machine to stress buffer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a2a25"/>
+      <stop offset="0.56" stop-color="#28493f"/>
+      <stop offset="1" stop-color="#e7b36a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#07120f" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <path d="M0 530 C150 486 248 564 408 510 C558 460 678 390 820 442 C990 504 1105 398 1280 430 L1280 720 L0 720 Z" fill="#091512" opacity="0.78"/>
+  <g opacity="0.16" stroke="#fff5df" stroke-width="1.4">
+    <path d="M136 126 H1144"/>
+    <path d="M136 212 H1144"/>
+    <path d="M136 298 H1144"/>
+    <path d="M136 384 H1144"/>
+    <path d="M136 470 H1144"/>
+  </g>
+  <rect x="96" y="92" width="1088" height="530" rx="34" fill="#10251f" filter="url(#shadow)"/>
+  <rect x="128" y="124" width="1024" height="466" rx="28" fill="#f6ead6"/>
+  <g font-family="Georgia, 'Noto Serif KR', serif">
+    <text x="170" y="214" fill="#28493f" font-size="31" letter-spacing="4">HERMES WORKLOG</text>
+    <text x="170" y="312" fill="#10251f" font-size="88" font-weight="700">JUE RESET</text>
+    <text x="170" y="392" fill="#10251f" font-size="52" font-weight="700">NOT PROFIT FIRST</text>
+    <text x="170" y="454" fill="#4e7165" font-size="30">Persona / Stress Buffer / Codex Records</text>
+    <text x="170" y="500" fill="#4e7165" font-size="24">2026.06.28 - 2026.07.05</text>
+  </g>
+  <g transform="translate(870 196)">
+    <circle cx="124" cy="124" r="105" fill="#e7b36a"/>
+    <circle cx="124" cy="124" r="78" fill="#10251f"/>
+    <path d="M124 56 C162 78 180 106 172 144 C164 184 130 202 94 188 C60 174 44 140 56 104 C66 76 92 58 124 56 Z" fill="#f6ead6"/>
+    <path d="M82 132 C106 154 142 154 166 132" fill="none" stroke="#10251f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="92" cy="110" r="8" fill="#10251f"/>
+    <circle cx="156" cy="110" r="8" fill="#10251f"/>
+    <rect x="26" y="276" width="196" height="46" rx="23" fill="#10251f"/>
+    <text x="124" y="306" text-anchor="middle" font-family="'Noto Sans KR', Arial, sans-serif" font-size="20" font-weight="800" fill="#f6ead6">STRESS DOWN</text>
+  </g>
+</svg>

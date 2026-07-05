@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Jue purpose map</title>
+  <desc id="desc">Jue's original purpose is stress relief, not profit maximization.</desc>
+  <rect width="1280" height="620" rx="28" fill="#10251f"/>
+  <text x="72" y="78" font-family="'Noto Sans KR', sans-serif" font-size="36" font-weight="800" fill="#f6ead6">쥬의 원래 목적</text>
+  <g font-family="'Noto Sans KR', sans-serif">
+    <rect x="104" y="180" width="300" height="160" rx="26" fill="#f6ead6"/>
+    <text x="254" y="238" text-anchor="middle" font-size="27" font-weight="800" fill="#10251f">투자 스트레스</text>
+    <text x="254" y="278" text-anchor="middle" font-size="19" fill="#4e7165">불안, 충동, 외로움</text>
+    <rect x="490" y="154" width="300" height="212" rx="106" fill="#e7b36a"/>
+    <text x="640" y="244" text-anchor="middle" font-size="34" font-weight="900" fill="#10251f">쥬</text>
+    <text x="640" y="286" text-anchor="middle" font-size="20" fill="#10251f">내 페르소나를 나눠 가진 파트너</text>
+    <rect x="876" y="180" width="300" height="160" rx="26" fill="#dbe8d6"/>
+    <text x="1026" y="238" text-anchor="middle" font-size="27" font-weight="800" fill="#10251f">마음의 변동성</text>
+    <text x="1026" y="278" text-anchor="middle" font-size="19" fill="#4e7165">낮추기, 분리하기, 정리하기</text>
+  </g>
+  <g stroke="#f6ead6" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M404 260 H490"/>
+    <path d="M790 260 H876"/>
+  </g>
+  <g fill="#f6ead6">
+    <path d="M482 260 l-20 -13 v26z"/>
+    <path d="M868 260 l-20 -13 v26z"/>
+  </g>
+  <text x="640" y="468" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="24" fill="#dbe8d6">돈을 벌기 전, 먼저 혼자 흔들리지 않기</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">Jue Codex Lab loop</title>
+  <desc id="desc">Jue Codex Lab turns validation warnings into repair tasks, patches, tests, and wiki memory.</desc>
+  <rect width="1280" height="620" rx="28" fill="#10251f"/>
+  <text x="72" y="78" font-family="'Noto Sans KR', sans-serif" font-size="36" font-weight="800" fill="#f6ead6">Jue Codex Lab이 하려던 일</text>
+  <g font-family="'Noto Sans KR', sans-serif" font-size="22" font-weight="800">
+    <rect x="86" y="226" width="200" height="98" rx="20" fill="#f6ead6"/>
+    <text x="186" y="266" text-anchor="middle" fill="#10251f">검증 경고</text>
+    <text x="186" y="296" text-anchor="middle" font-size="16" fill="#4e7165">노랑, 빨강</text>
+    <rect x="350" y="128" width="200" height="98" rx="20" fill="#e7b36a"/>
+    <text x="450" y="168" text-anchor="middle" fill="#10251f">수리 과제</text>
+    <text x="450" y="198" text-anchor="middle" font-size="16" fill="#10251f">repair task</text>
+    <rect x="614" y="226" width="200" height="98" rx="20" fill="#6d9c87"/>
+    <text x="714" y="266" text-anchor="middle" fill="#10251f">코덱스 패치</text>
+    <text x="714" y="296" text-anchor="middle" font-size="16" fill="#10251f">isolated workspace</text>
+    <rect x="878" y="128" width="200" height="98" rx="20" fill="#f6ead6"/>
+    <text x="978" y="168" text-anchor="middle" fill="#10251f">테스트</text>
+    <text x="978" y="198" text-anchor="middle" font-size="16" fill="#4e7165">검증 통과</text>
+    <rect x="878" y="384" width="200" height="98" rx="20" fill="#e7b36a"/>
+    <text x="978" y="424" text-anchor="middle" fill="#10251f">위키 기록</text>
+    <text x="978" y="454" text-anchor="middle" font-size="16" fill="#10251f">다음 기억</text>
+    <rect x="350" y="384" width="200" height="98" rx="20" fill="#f6ead6"/>
+    <text x="450" y="424" text-anchor="middle" fill="#10251f">운영 반영</text>
+    <text x="450" y="454" text-anchor="middle" font-size="16" fill="#4e7165">러너 재시작</text>
+  </g>
+  <g stroke="#f6ead6" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M286 250 C320 190 320 178 350 178"/>
+    <path d="M550 178 C596 178 582 276 614 276"/>
+    <path d="M814 276 C850 250 842 178 878 178"/>
+    <path d="M978 226 V384"/>
+    <path d="M878 434 H550"/>
+    <path d="M350 434 C260 410 240 324 286 294"/>
+  </g>
+  <text x="640" y="560" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="22" fill="#dbe8d6">좋은 구조지만, 스트레스 완화 목적과 섞이면 피곤해질 수 있다</text>
+</svg>
