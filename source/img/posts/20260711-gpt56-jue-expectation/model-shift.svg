@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Controlled model transition</title>
+  <desc id="desc">GPT 5.5 defaults remain while GPT 5.6 is evaluated through controlled migration and safety verification.</desc>
+  <rect width="1400" height="720" rx="32" fill="#081720"/>
+  <text x="76" y="86" font-family="Georgia, Times New Roman, serif" font-size="50" fill="#f7f3e8">A release is not a migration.</text>
+  <text x="78" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="2" fill="#89b4a4">THE HONEST GAP INSIDE HERMES</text>
+  <g transform="translate(76 208)">
+    <rect width="370" height="330" rx="28" fill="#10242d" stroke="#6f988a" stroke-width="2"/>
+    <text x="38" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#91b5a8">CURRENT DEFAULTS</text>
+    <text x="38" y="132" font-family="Georgia, Times New Roman, serif" font-size="58" font-weight="700" fill="#f7f3e8">GPT 5.5</text>
+    <text x="38" y="192" font-family="Arial, sans-serif" font-size="21" fill="#b7cec5">기존 작업 흐름</text>
+    <text x="38" y="230" font-family="Arial, sans-serif" font-size="21" fill="#b7cec5">기존 비용과 속도</text>
+    <text x="38" y="268" font-family="Arial, sans-serif" font-size="21" fill="#b7cec5">검증된 안전장치</text>
+  </g>
+  <g transform="translate(515 208)">
+    <rect width="370" height="330" rx="28" fill="#19291f" stroke="#f6bf78" stroke-width="3"/>
+    <text x="38" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#f6bf78">CONTROLLED MIGRATION</text>
+    <text x="38" y="121" font-family="Arial, sans-serif" font-size="22" fill="#f7f3e8">1. 역할을 나눈다</text>
+    <text x="38" y="169" font-family="Arial, sans-serif" font-size="22" fill="#f7f3e8">2. 결과를 비교한다</text>
+    <text x="38" y="217" font-family="Arial, sans-serif" font-size="22" fill="#f7f3e8">3. 비용을 확인한다</text>
+    <text x="38" y="265" font-family="Arial, sans-serif" font-size="22" fill="#f7f3e8">4. 안전을 다시 검증한다</text>
+  </g>
+  <g transform="translate(954 208)">
+    <rect width="370" height="330" rx="28" fill="#123028" stroke="#9cf2c8" stroke-width="3"/>
+    <text x="38" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#9cf2c8">NEW EXPECTATION</text>
+    <text x="38" y="132" font-family="Georgia, Times New Roman, serif" font-size="58" font-weight="700" fill="#f7f3e8">GPT 5.6</text>
+    <text x="38" y="192" font-family="Arial, sans-serif" font-size="21" fill="#c8e4d8">더 긴 맥락</text>
+    <text x="38" y="230" font-family="Arial, sans-serif" font-size="21" fill="#c8e4d8">더 나은 구조 이해</text>
+    <text x="38" y="268" font-family="Arial, sans-serif" font-size="21" fill="#c8e4d8">더 쉬운 설명</text>
+  </g>
+  <path d="M455 373h50M894 373h50" stroke="#f6bf78" stroke-width="4" stroke-linecap="round"/>
+  <path d="m493 361 14 12-14 12M932 361l14 12-14 12" fill="none" stroke="#f6bf78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="700" y="630" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="30" fill="#f7f3e8">Stronger model, same deterministic safety line.</text>
+</svg>
+

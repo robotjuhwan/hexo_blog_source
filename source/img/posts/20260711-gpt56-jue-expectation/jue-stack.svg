@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Jue knowledge and safety stack</title>
+  <desc id="desc">Raw evidence becomes Wiki knowledge, then a compact manager context, while deterministic safety gates remain below.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081720"/><stop offset="1" stop-color="#15372f"/></linearGradient></defs>
+  <rect width="1400" height="820" rx="32" fill="url(#bg)"/>
+  <text x="76" y="84" font-family="Georgia, Times New Roman, serif" font-size="50" fill="#f7f3e8">Less input. Better understanding.</text>
+  <text x="78" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="2" fill="#8bb2a4">JUE WIKI-FIRST KNOWLEDGE FLOW</text>
+  <g transform="translate(190 186)" font-family="Arial, sans-serif">
+    <rect width="1020" height="116" rx="24" fill="#102630" stroke="#719b8d" stroke-width="2"/>
+    <text x="44" y="48" font-size="18" letter-spacing="2" fill="#91b7aa">RAW EVIDENCE</text>
+    <text x="44" y="83" font-size="24" fill="#f7f3e8">시세 · 뉴스 · 전략 판단 · 운영 기록 · 실제 결과</text>
+    <path d="M510 116v54" stroke="#9cf2c8" stroke-width="4"/>
+    <path d="m498 157 12 14 12-14" fill="none" stroke="#9cf2c8" stroke-width="4"/>
+    <rect y="170" width="1020" height="116" rx="24" fill="#163229" stroke="#9cf2c8" stroke-width="3"/>
+    <text x="44" y="218" font-size="18" letter-spacing="2" fill="#9cf2c8">JUE WIKI</text>
+    <text x="44" y="253" font-size="24" fill="#f7f3e8">기록에서 의미를 정리하고, 모순과 빈칸을 표시한다</text>
+    <path d="M510 286v54" stroke="#f6bf78" stroke-width="4"/>
+    <path d="m498 327 12 14 12-14" fill="none" stroke="#f6bf78" stroke-width="4"/>
+    <rect y="340" width="1020" height="116" rx="24" fill="#2d2a1d" stroke="#f6bf78" stroke-width="3"/>
+    <text x="44" y="388" font-size="18" letter-spacing="2" fill="#f6bf78">MANAGER CONTEXT</text>
+    <text x="44" y="423" font-size="24" fill="#f7f3e8">압축된 지식 + 지금 필요한 증거만 읽는다</text>
+    <path d="M510 456v54" stroke="#9cf2c8" stroke-width="4"/>
+    <path d="m498 497 12 14 12-14" fill="none" stroke="#9cf2c8" stroke-width="4"/>
+    <rect y="510" width="1020" height="116" rx="24" fill="#102630" stroke="#9cf2c8" stroke-width="3"/>
+    <text x="44" y="558" font-size="18" letter-spacing="2" fill="#9cf2c8">DETERMINISTIC SAFETY GATES</text>
+    <text x="44" y="593" font-size="24" fill="#f7f3e8">자료 신선도 · 최대 손실 · 주문 제한 · 이상 시 중단</text>
+  </g>
+  <text x="700" y="762" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="28" fill="#d8eee5">Intelligence interprets. Rules protect.</text>
+</svg>
+

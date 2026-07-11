@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Recent HERMES work map</title>
+  <desc id="desc">A sequence from Codex records through structure and readiness to Jue Wiki and trading design.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1720"/><stop offset="1" stop-color="#16332f"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0l12 6-12 6Z" fill="#88dcb5"/></marker>
+  </defs>
+  <rect width="1400" height="760" rx="32" fill="url(#bg)"/>
+  <text x="76" y="86" font-family="Georgia, Times New Roman, serif" font-size="50" fill="#f7f3e8">What happened after the reset?</text>
+  <text x="78" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="2" fill="#8db2a5">RECENT HERMES WORK / 2026.07.05 — 07.11</text>
+  <path d="M226 350H1172" stroke="#88dcb5" stroke-width="4" stroke-opacity=".45" marker-end="url(#arrow)"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(160 300)"><circle cx="0" cy="50" r="74" fill="#122832" stroke="#9cf2c8" stroke-width="3"/><text y="41" font-size="22" font-weight="700" fill="#f7f3e8">CODEX</text><text y="69" font-size="17" fill="#a9c9bd">records</text><text y="155" font-size="18" fill="#d6e9e1">문제의 흔적 모으기</text></g>
+    <g transform="translate(424 300)"><circle cx="0" cy="50" r="74" fill="#122832" stroke="#9cf2c8" stroke-width="3"/><text y="41" font-size="20" font-weight="700" fill="#f7f3e8">STRUCTURE</text><text y="69" font-size="17" fill="#a9c9bd">contracts</text><text y="155" font-size="18" fill="#d6e9e1">실행 기준 하나로</text></g>
+    <g transform="translate(688 300)"><circle cx="0" cy="50" r="74" fill="#122832" stroke="#f6bf78" stroke-width="3"/><text y="41" font-size="20" font-weight="700" fill="#f7f3e8">READINESS</text><text y="69" font-size="17" fill="#d8b482">warnings</text><text y="155" font-size="18" fill="#d6e9e1">위험과 조언 구분</text></g>
+    <g transform="translate(952 300)"><circle cx="0" cy="50" r="74" fill="#122832" stroke="#9cf2c8" stroke-width="3"/><text y="41" font-size="21" font-weight="700" fill="#f7f3e8">JUE WIKI</text><text y="69" font-size="17" fill="#a9c9bd">knowledge</text><text y="155" font-size="18" fill="#d6e9e1">기록을 지식으로</text></g>
+    <g transform="translate(1216 300)"><circle cx="0" cy="50" r="74" fill="#122832" stroke="#9cf2c8" stroke-width="3"/><text y="41" font-size="21" font-weight="700" fill="#f7f3e8">TRADING</text><text y="69" font-size="17" fill="#a9c9bd">design</text><text y="155" font-size="18" fill="#d6e9e1">안전하게 판단</text></g>
+  </g>
+  <rect x="76" y="586" width="1248" height="94" rx="20" fill="#09151c" stroke="#8bd9b5" stroke-opacity=".35"/>
+  <text x="700" y="626" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="28" fill="#f7f3e8">The point was not adding one more feature.</text>
+  <text x="700" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#a9c9bd">복잡해진 쥬를 다시 설명 가능한 순서로 세우는 작업이었다.</text>
+</svg>
+
