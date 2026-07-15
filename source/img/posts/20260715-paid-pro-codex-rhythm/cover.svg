@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Paid Pro, practical rhythm</title>
+  <desc id="desc">A warm printed receipt representing a paid Codex working rhythm.</desc>
+  <defs>
+    <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r=".8" fill="#14394a" opacity=".11"/>
+      <circle cx="13" cy="12" r=".6" fill="#c84e3b" opacity=".11"/>
+    </pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#14394a" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1400" height="800" fill="#eadfbd"/>
+  <rect width="1400" height="800" fill="url(#paper)"/>
+  <path d="M0 0h1400v116C1162 79 1033 164 812 116S403 68 0 122Z" fill="#153d50"/>
+  <g transform="translate(115 100) rotate(-2 585 285)" filter="url(#shadow)">
+    <rect width="1170" height="570" rx="16" fill="#fff8e8"/>
+    <rect x="34" y="34" width="1102" height="76" rx="12" fill="#153d50"/>
+    <text x="78" y="83" font-family="ui-monospace, Menlo, monospace" font-size="25" font-weight="700" letter-spacing="3" fill="#fff8e8">CODEX WORK RECEIPT</text>
+    <text x="1086" y="83" text-anchor="end" font-family="ui-monospace, Menlo, monospace" font-size="20" fill="#e8dcae">2026.07</text>
+    <text x="76" y="215" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#153d50">PAID, NOW REAL.</text>
+    <text x="78" y="266" font-family="Arial, sans-serif" font-size="25" fill="#597078">not a final-night sprint / a monthly working rhythm</text>
+    <line x1="76" y1="315" x2="1094" y2="315" stroke="#c9b889" stroke-width="2"/>
+    <text x="78" y="386" font-family="ui-monospace, Menlo, monospace" font-size="23" fill="#c84e3b">MONTHLY PRO</text>
+    <text x="78" y="495" font-family="Georgia, serif" font-size="132" font-weight="700" fill="#153d50">100</text>
+    <text x="365" y="479" font-family="Arial, sans-serif" font-size="27" fill="#597078">dollars of</text>
+    <text x="365" y="518" font-family="Arial, sans-serif" font-size="27" fill="#597078">thinking space</text>
+    <g transform="translate(734 357)">
+      <rect width="332" height="126" rx="17" fill="#f3d45e"/>
+      <text x="28" y="49" font-family="ui-monospace, Menlo, monospace" font-size="17" font-weight="700" fill="#153d50">WHAT SHOULD REMAIN?</text>
+      <text x="28" y="88" font-family="Georgia, serif" font-size="29" fill="#153d50">CODE · TEST · MEMORY</text>
+    </g>
+  </g>
+  <g transform="translate(1040 610)">
+    <circle cx="90" cy="80" r="70" fill="#c84e3b"/>
+    <path d="M56 80h68M90 46v68" stroke="#fff8e8" stroke-width="12" stroke-linecap="round"/>
+    <text x="90" y="182" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="17" letter-spacing="2" fill="#153d50">KEEP BUILDING</text>
+  </g>
+</svg>
