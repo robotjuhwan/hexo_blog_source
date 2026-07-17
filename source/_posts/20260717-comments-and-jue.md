@@ -1,7 +1,7 @@
 ---
 title: "댓글을 달고, 쥬의 빈 칸을 찾았다"
 date: 2026-07-17 21:47:44
-updated: 2026-07-17 21:47:44
+updated: 2026-07-17 21:54:29
 categories:
   - Chat
 tags:
