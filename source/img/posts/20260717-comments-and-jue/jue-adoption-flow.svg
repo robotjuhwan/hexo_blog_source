@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">쥬의 관리 밖 보유분 처리 흐름</title>
+  <desc id="desc">실제 계좌 보유분을 확인하고, 조사와 명시적 채택 판단을 거쳐 관리 블록으로 옮기는 흐름</desc>
+  <rect width="1200" height="560" fill="#f4efe1"/>
+  <path d="M0 80H1200M0 200H1200M0 320H1200M0 440H1200" stroke="#d9d1bc" stroke-width="1"/>
+  <text x="68" y="78" fill="#294f48" font-family="sans-serif" font-size="32" font-weight="700">쥬가 모르는 보유분을 다루는 순서</text>
+  <text x="68" y="116" fill="#64736b" font-family="sans-serif" font-size="18">바로 주문하지 않고, 확인과 조사와 명시적인 채택 판단을 남긴다.</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(68 210)">
+      <rect width="220" height="162" rx="22" fill="#214f47"/>
+      <text x="110" y="57" fill="#bfe5d6" font-size="17" letter-spacing="2">1. ACCOUNT</text>
+      <text x="110" y="98" fill="#fff" font-size="25" font-weight="700">실제 보유 확인</text>
+      <text x="110" y="130" fill="#d4eee4" font-size="16">관리 목록과 수량 대조</text>
+    </g>
+    <g transform="translate(344 210)">
+      <rect width="220" height="162" rx="22" fill="#3f806d"/>
+      <text x="110" y="57" fill="#d7f1dc" font-size="17" letter-spacing="2">2. RESEARCH</text>
+      <text x="110" y="98" fill="#fff" font-size="25" font-weight="700">근거를 다시 모음</text>
+      <text x="110" y="130" fill="#e6f5ed" font-size="16">자료가 부족하면 대기</text>
+    </g>
+    <g transform="translate(620 210)">
+      <rect width="220" height="162" rx="22" fill="#6a956d"/>
+      <text x="110" y="57" fill="#ecf1d0" font-size="17" letter-spacing="2">3. DECIDE</text>
+      <text x="110" y="98" fill="#fff" font-size="25" font-weight="700">명시적으로 채택</text>
+      <text x="110" y="130" fill="#eef5df" font-size="16">역할과 조건을 확인</text>
+    </g>
+    <g transform="translate(896 210)">
+      <rect width="220" height="162" rx="22" fill="#b28248"/>
+      <text x="110" y="57" fill="#fff1c9" font-size="17" letter-spacing="2">4. MANAGE</text>
+      <text x="110" y="98" fill="#fff" font-size="25" font-weight="700">관리 블록에 기록</text>
+      <text x="110" y="130" fill="#fff3db" font-size="16">새 매수 주문은 없음</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#8b7354" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M294 291h38m-15-15 15 15-15 15"/>
+    <path d="M570 291h38m-15-15 15 15-15 15"/>
+    <path d="M846 291h38m-15-15 15 15-15 15"/>
+  </g>
+  <rect x="68" y="424" width="1048" height="68" rx="18" fill="#e7dbc0"/>
+  <text x="592" y="467" text-anchor="middle" fill="#5f4a34" font-family="sans-serif" font-size="21">조사 실패나 판단 누락은 사라지지 않고 “확인 대기”로 남아 다시 살핀다.</text>
+</svg>

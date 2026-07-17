@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">댓글 창과 쥬의 빈칸</title>
+  <desc id="desc">블로그 댓글과 투자 동료 쥬의 안전한 판단 과정을 연결한 다이어리 표지</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b1a"/><stop offset="1" stop-color="#254b45"/></linearGradient>
+    <linearGradient id="card" x1="0" x2="1"><stop stop-color="#f5e7bf"/><stop offset="1" stop-color="#bddecf"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8ed1bd" stroke-opacity=".13"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1024" cy="106" r="132" fill="#f3bd68" fill-opacity=".18"/>
+  <circle cx="136" cy="556" r="180" fill="#55b2a0" fill-opacity=".16"/>
+  <text x="92" y="116" fill="#d9f0e6" font-family="sans-serif" font-size="24" letter-spacing="5">POUL WORKLOG · 2026.07.17</text>
+  <text x="92" y="191" fill="#fff8df" font-family="sans-serif" font-size="58" font-weight="700">댓글을 달고,</text>
+  <text x="92" y="260" fill="#fff8df" font-family="sans-serif" font-size="58" font-weight="700">쥬의 빈 칸을 찾았다</text>
+  <g transform="translate(92 338)">
+    <rect width="450" height="180" rx="22" fill="#0b1514" stroke="#93d9c3" stroke-opacity=".6"/>
+    <text x="34" y="52" fill="#a6e1ca" font-family="sans-serif" font-size="21" letter-spacing="3">BLOG</text>
+    <rect x="32" y="76" width="386" height="60" rx="14" fill="#192d29"/>
+    <circle cx="63" cy="106" r="14" fill="#e6ba72"/>
+    <path d="M95 99h204M95 117h134" stroke="#d8eee4" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+    <text x="32" y="162" fill="#d8eee4" font-family="sans-serif" font-size="18">읽은 뒤, 한 줄을 남길 수 있는 자리</text>
+  </g>
+  <path d="M570 429h76" stroke="#f0c870" stroke-width="5" stroke-linecap="round"/>
+  <path d="m636 413 22 16-22 16" fill="none" stroke="#f0c870" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(688 338)">
+    <rect width="420" height="180" rx="22" fill="url(#card)"/>
+    <text x="34" y="52" fill="#1b4b42" font-family="sans-serif" font-size="21" font-weight="700" letter-spacing="3">JUE</text>
+    <g transform="translate(34 81)">
+      <rect width="96" height="42" rx="12" fill="#2f7567"/>
+      <rect x="122" width="96" height="42" rx="12" fill="#578f6d"/>
+      <rect x="244" width="96" height="42" rx="12" fill="#b17a42"/>
+      <text x="13" y="27" fill="#fff" font-family="sans-serif" font-size="15">보유 확인</text>
+      <text x="137" y="27" fill="#fff" font-family="sans-serif" font-size="15">근거 조사</text>
+      <text x="260" y="27" fill="#fff" font-family="sans-serif" font-size="15">안전 판단</text>
+    </g>
+    <text x="34" y="162" fill="#26554b" font-family="sans-serif" font-size="18">모르는 보유분을 숨기지 않는 흐름</text>
+  </g>
+</svg>
