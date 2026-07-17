@@ -2,6 +2,7 @@ const createLogger = require('hexo-log');
 const logger = (createLogger.default || createLogger)();
 const { Component } = require('inferno');
 const view = require('hexo-component-inferno/lib/core/view');
+const WalineV3 = require('./waline-v3');
 
 module.exports = class extends Component {
     render() {
@@ -10,6 +11,15 @@ module.exports = class extends Component {
         const { comment } = config;
         if (!comment || typeof comment.type !== 'string') {
             return null;
+        }
+
+        if (comment.type === 'waline' && comment.server_url) {
+            return <div class="card">
+                <div class="card-content">
+                    <h3 class="title is-5">{__('article.comments')}</h3>
+                    <WalineV3 comment={comment} />
+                </div>
+            </div>;
         }
 
         return <div class="card">

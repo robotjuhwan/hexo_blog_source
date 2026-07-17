@@ -203,6 +203,8 @@ module.exports = class extends Component {
             {hlTheme ? <link rel="stylesheet" href={cdn('highlight.js', '9.12.0', 'styles/' + hlTheme + '.css')} /> : null}
             <link rel="stylesheet" href={fontCssUrl[variant]} />
             <link rel="stylesheet" href={url_for('/css/' + variant + '.css')} />
+            {is_post(page) && config.comment && config.comment.type === 'waline' && config.comment.server_url
+                ? <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" /> : null}
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
             {config.adsense !== false ? <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454862779387141"
                 crossorigin="anonymous"></script> : null}

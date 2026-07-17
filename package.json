@@ -41,5 +41,9 @@
     "inferno-create-element": "^8.2.3",
     "moment": "^2.30.1",
     "semver": "^7.5.4"
+  },
+  "overrides": {
+    "dompurify": "3.4.12",
+    "form-data": "4.0.6"
   }
 }
