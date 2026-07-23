@@ -2,16 +2,19 @@
 
 const REQUIRED_ENV = ['WALINE_SERVER_URL', 'WALINE_TURNSTILE_SITE_KEY'];
 
-function readConfig() {
-    const values = Object.fromEntries(REQUIRED_ENV.map(name => [name, (process.env[name] || '').trim()]));
-    const present = Object.values(values).filter(Boolean).length;
+// Both values are public client configuration: every rendered post ships them
+// to the browser. Keeping the deployed values here prevents fresh clones from
+// silently dropping the comment widget when a local shell has no env file.
+const PUBLIC_DEFAULTS = {
+    WALINE_SERVER_URL: 'https://comments.poul.kr',
+    WALINE_TURNSTILE_SITE_KEY: '0x4AAAAAAD3niZNbZU7wcpMV'
+};
 
-    if (present === 0) {
-        return null;
-    }
-    if (present !== REQUIRED_ENV.length) {
-        throw new Error(`${REQUIRED_ENV.join(' and ')} must be set together to enable comments.`);
-    }
+function readConfig() {
+    const values = Object.fromEntries(REQUIRED_ENV.map(name => [
+        name,
+        (process.env[name] || PUBLIC_DEFAULTS[name]).trim()
+    ]));
 
     let serverUrl;
     try {

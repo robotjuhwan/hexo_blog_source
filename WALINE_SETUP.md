@@ -1,9 +1,7 @@
 # Waline Comment Setup
 
-This repository contains the static-site side of the comment feature. It stays
-off by default, so incomplete configuration never leaves a broken comment box
-on `poul.kr`. When enabled, it appears on blog posts only, not the about,
-privacy, or contact pages.
+This repository contains the static-site side of the comment feature. It is
+enabled on blog posts only, not the about, privacy, or contact pages.
 
 ## Behavior Chosen For PouL
 
@@ -57,10 +55,13 @@ Create a Cloudflare Turnstile widget for `poul.kr`. Add `poul.kr` and
 environment below, and keep the secret key only in Vercel as
 `TURNSTILE_SECRET`.
 
-## 3. Enable The Static Widget
+## 3. Static Widget Configuration
 
-The two values below are public configuration and are intentionally read only
-at build time. Do not commit them to `_config*.yml`.
+The Waline server URL and Turnstile site key are public browser configuration.
+They are kept as versioned defaults in `scripts/waline-comments.js` so a fresh
+source checkout cannot accidentally remove comments during deployment. If the
+comment server or Turnstile widget changes, override both during a one-off
+build, then update those defaults before the next normal deployment.
 
 ```sh
 export WALINE_SERVER_URL='https://comments.poul.kr'
@@ -69,8 +70,7 @@ npm run clean
 npm run build
 ```
 
-The generated HTML then loads Waline v3 with nickname-only, no-login settings.
-Without both variables, no comment assets or widget are generated.
+The generated HTML loads Waline v3 with nickname-only, no-login settings.
 
 ## 4. Verify Before Publishing
 
