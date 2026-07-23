@@ -8,7 +8,6 @@ tags:
   - 투자 기록
 categories:
   - 투자 기록
-draft: true
 ---
 
 ![시장 분위기는 좋지만 후보 카드는 유리 덮개 아래에 둔 쥬](/img/posts/20260723-kis-jue-market-read/jue-kis-market-read.png)
