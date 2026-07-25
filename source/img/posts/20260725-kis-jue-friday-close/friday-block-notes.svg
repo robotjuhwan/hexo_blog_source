@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">금요일 KIS 쥬 블록 변화</title>
+  <desc id="desc">미국 S&P500 ETF 두 개의 보호 종료, 레인보우로보틱스의 기존 보유 편입 후 종료, 피노의 기존 보유 편입을 요약한 흐름</desc>
+  <rect width="1200" height="610" fill="#f5efe3"/>
+  <path d="M0 0H1200V92H0Z" fill="#183b47"/>
+  <text x="65" y="56" fill="#f8e9c8" font-size="29" font-family="sans-serif" font-weight="700">금요일의 블록 메모: 새 매수보다 보호·연결</text>
+  <line x1="145" y1="312" x2="1055" y2="312" stroke="#9eb5b1" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(70 142)">
+    <circle cx="76" cy="170" r="61" fill="#e46e55"/>
+    <text x="76" y="179" text-anchor="middle" fill="#fff8e9" font-size="28" font-family="sans-serif" font-weight="700">01</text>
+    <rect x="0" y="0" width="255" height="100" rx="16" fill="#fffaf0" stroke="#dfc8a5" stroke-width="2"/>
+    <text x="22" y="34" fill="#173a45" font-size="21" font-family="sans-serif" font-weight="700">TIGER 미국S&amp;P500</text>
+    <text x="22" y="65" fill="#5f7378" font-size="18" font-family="sans-serif">보호 조건 확인 → 종료</text>
+  </g>
+  <g transform="translate(344 352)">
+    <circle cx="76" cy="-40" r="61" fill="#e46e55"/>
+    <text x="76" y="-31" text-anchor="middle" fill="#fff8e9" font-size="28" font-family="sans-serif" font-weight="700">02</text>
+    <rect x="0" y="40" width="255" height="100" rx="16" fill="#fffaf0" stroke="#dfc8a5" stroke-width="2"/>
+    <text x="22" y="75" fill="#173a45" font-size="21" font-family="sans-serif" font-weight="700">KODEX 미국S&amp;P500</text>
+    <text x="22" y="106" fill="#5f7378" font-size="18" font-family="sans-serif">보호 조건 확인 → 종료</text>
+  </g>
+  <g transform="translate(618 142)">
+    <circle cx="76" cy="170" r="61" fill="#dd9c50"/>
+    <text x="76" y="179" text-anchor="middle" fill="#fff8e9" font-size="28" font-family="sans-serif" font-weight="700">03</text>
+    <rect x="0" y="0" width="255" height="100" rx="16" fill="#fffaf0" stroke="#dfc8a5" stroke-width="2"/>
+    <text x="22" y="34" fill="#173a45" font-size="21" font-family="sans-serif" font-weight="700">레인보우로보틱스</text>
+    <text x="22" y="65" fill="#5f7378" font-size="18" font-family="sans-serif">기존 보유 편입 → 보호 종료</text>
+  </g>
+  <g transform="translate(892 352)">
+    <circle cx="76" cy="-40" r="61" fill="#4c9b8f"/>
+    <text x="76" y="-31" text-anchor="middle" fill="#fff8e9" font-size="28" font-family="sans-serif" font-weight="700">04</text>
+    <rect x="0" y="40" width="255" height="100" rx="16" fill="#fffaf0" stroke="#dfc8a5" stroke-width="2"/>
+    <text x="22" y="75" fill="#173a45" font-size="21" font-family="sans-serif" font-weight="700">피노</text>
+    <text x="22" y="106" fill="#5f7378" font-size="18" font-family="sans-serif">기존 보유를 중기 관리로 편입</text>
+  </g>
+  <text x="600" y="560" text-anchor="middle" fill="#60757a" font-size="18" font-family="sans-serif">편입(adopt)은 새 매수가 아니라, 이미 있던 보유를 관리 규칙에 연결하는 작업이다.</text>
+</svg>

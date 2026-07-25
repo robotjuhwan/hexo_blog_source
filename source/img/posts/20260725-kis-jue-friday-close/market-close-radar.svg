@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">금요일 장 마감, 쥬의 시장 신호</title>
+  <desc id="desc">코스피, 코스닥, 코스피200, 선물이 모두 약세이고 외국인 기관 수급과 프로그램 매도가 기록된 risk-off 신호 요약</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102b3a"/><stop offset="1" stop-color="#081522"/></linearGradient>
+    <linearGradient id="card" x1="0" x2="1"><stop stop-color="#193f4f"/><stop offset="1" stop-color="#123040"/></linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <path d="M0 580 C170 490 280 660 430 550 S720 640 900 530 S1080 570 1200 470 V700 H0Z" fill="#0d2130"/>
+  <text x="72" y="86" fill="#f6e7c9" font-size="26" font-family="sans-serif" font-weight="700" letter-spacing="3">JUE / FRIDAY CLOSE NOTE</text>
+  <text x="72" y="140" fill="#ffffff" font-size="48" font-family="sans-serif" font-weight="700">시장 전체는 risk-off</text>
+  <text x="72" y="178" fill="#a9c0c4" font-size="22" font-family="sans-serif">새 위험을 서두르기보다, 이미 가진 블록의 보호 조건을 다시 보는 날</text>
+  <g transform="translate(72 232)">
+    <rect width="276" height="185" rx="20" fill="url(#card)" stroke="#2a5962"/>
+    <text x="28" y="50" fill="#b6d0cf" font-size="21" font-family="sans-serif">KOSPI</text>
+    <text x="28" y="124" fill="#fb8564" font-size="62" font-family="sans-serif" font-weight="700">-5.72%</text>
+    <path d="M218 118 l18 20 18-20 M236 54v76" fill="none" stroke="#fb8564" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(372 232)">
+    <rect width="276" height="185" rx="20" fill="url(#card)" stroke="#2a5962"/>
+    <text x="28" y="50" fill="#b6d0cf" font-size="21" font-family="sans-serif">KOSDAQ</text>
+    <text x="28" y="124" fill="#fb8564" font-size="62" font-family="sans-serif" font-weight="700">-5.32%</text>
+    <path d="M218 118 l18 20 18-20 M236 54v76" fill="none" stroke="#fb8564" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(672 232)">
+    <rect width="276" height="185" rx="20" fill="url(#card)" stroke="#2a5962"/>
+    <text x="28" y="50" fill="#b6d0cf" font-size="21" font-family="sans-serif">KOSPI 200</text>
+    <text x="28" y="124" fill="#fb8564" font-size="62" font-family="sans-serif" font-weight="700">-6.28%</text>
+    <path d="M218 118 l18 20 18-20 M236 54v76" fill="none" stroke="#fb8564" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(972 232)">
+    <rect width="156" height="185" rx="20" fill="url(#card)" stroke="#2a5962"/>
+    <text x="25" y="50" fill="#b6d0cf" font-size="18" font-family="sans-serif">선물</text>
+    <text x="25" y="112" fill="#fb8564" font-size="41" font-family="sans-serif" font-weight="700">-6.09%</text>
+    <path d="M111 130 l12 14 12-14 M123 70v57" fill="none" stroke="#fb8564" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(72 470)">
+    <rect width="1056" height="124" rx="20" fill="#f5e4bf"/>
+    <circle cx="55" cy="62" r="22" fill="#e4644a"/>
+    <path d="M55 44v28 M41 58h28" stroke="#f5e4bf" stroke-width="5" stroke-linecap="round"/>
+    <text x="100" y="52" fill="#193442" font-size="25" font-family="sans-serif" font-weight="700">외국인·기관 매도 흐름 + 코스피 프로그램 매도</text>
+    <text x="100" y="91" fill="#4d6770" font-size="20" font-family="sans-serif">쥬의 해석: 신규 진입을 만들지 않고, 기존 블록의 보호·대조 규칙을 우선한다.</text>
+  </g>
+  <text x="72" y="650" fill="#72949a" font-size="16" font-family="sans-serif">Source: 2026-07-24 KIS Jue market-pulse record · percentages are daily index changes</text>
+</svg>
