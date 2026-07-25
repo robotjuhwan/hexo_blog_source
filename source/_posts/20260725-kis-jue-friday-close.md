@@ -35,7 +35,7 @@ categories:
 
 여기서 말하는 **블록**은 종목을 하나 들고 있다는 표기가 아니다. 왜 관리하는지, 어떤 시간대로 볼지, 무엇이 깨지면 멈출지를 같이 적어 둔 관리 카드다. 금요일에는 새로 위험을 키우는 블록보다, 이미 있는 카드를 정리하거나 연결하는 일이 많았다.
 
-![금요일에 남은 블록 변화 기록](/img/posts/20260725-kis-jue-friday-close/friday-block-notes.svg)
+![금요일에 남은 블록 변화 기록](/img/posts/20260725-kis-jue-friday-close/friday-block-notes.svg?v=2)
 
 ### 미국 지수 ETF 두 개는 보호적 종료로 정리했다
 
