@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">아직 주문을 열지 않는 HERMES v3</title>
+  <desc id="desc">데이터, 알파, 백테스트, 판단, 주문 순서 중 주문이 아직 잠겨 있음을 보여주는 그림</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#17333c"/><stop offset="1" stop-color="#28505a"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#75c2bb"/><stop offset="1" stop-color="#f4c45d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#sky)"/>
+  <g opacity=".15" stroke="#bde4dc"><path d="M0 511H1200M0 426H1200M0 341H1200M0 256H1200M0 171H1200"/><path d="M100 0V640M300 0V640M500 0V640M700 0V640M900 0V640M1100 0V640"/></g>
+  <text x="80" y="100" fill="#f6f1df" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="48" font-weight="700">쥬의 주문 버튼은 아직 잠겨 있다</text>
+  <text x="82" y="142" fill="#bdd5d0" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="22">좋은 시스템은 빨리 주문하는 시스템보다, 주문하지 말아야 할 때 멈추는 시스템에 가깝다.</text>
+  <path d="M145 387H1015" stroke="url(#path)" stroke-width="12" stroke-linecap="round"/>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <g transform="translate(150 0)"><circle cy="387" r="42" fill="#75c2bb"/><text y="398" fill="#17333c" font-size="24" font-weight="700">1</text><text y="468" fill="#e7f2ee" font-size="23" font-weight="700">데이터</text><text y="501" fill="#b9d0cc" font-size="17">진행 중</text></g>
+    <g transform="translate(360 0)"><circle cy="387" r="42" fill="#75c2bb"/><text y="398" fill="#17333c" font-size="24" font-weight="700">2</text><text y="468" fill="#e7f2ee" font-size="23" font-weight="700">알파</text><text y="501" fill="#b9d0cc" font-size="17">다음</text></g>
+    <g transform="translate(570 0)"><circle cy="387" r="42" fill="#f4c45d"/><text y="398" fill="#17333c" font-size="24" font-weight="700">3</text><text y="468" fill="#fff2c8" font-size="23" font-weight="700">백테스트</text><text y="501" fill="#e8cd88" font-size="17">관문</text></g>
+    <g transform="translate(780 0)"><circle cy="387" r="42" fill="#416a70" stroke="#9ccbc4" stroke-width="3"/><text y="398" fill="#dbeae5" font-size="24" font-weight="700">4</text><text y="468" fill="#b9d0cc" font-size="23" font-weight="700">판단</text><text y="501" fill="#91aaa8" font-size="17">아직 아님</text></g>
+  </g>
+  <g transform="translate(1010 305)">
+    <rect x="-66" y="0" width="132" height="116" rx="17" fill="#e67657"/>
+    <path d="M-30 0v-25c0-37 60-37 60 0V0" fill="none" stroke="#f6f1df" stroke-width="15" stroke-linecap="round"/>
+    <circle cy="52" r="13" fill="#f6f1df"/><path d="M0 65v22" stroke="#f6f1df" stroke-width="10" stroke-linecap="round"/>
+    <text x="0" y="170" text-anchor="middle" fill="#ffe4d5" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">주문은 Phase 5 이후</text>
+  </g>
+</svg>

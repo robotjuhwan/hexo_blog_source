@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 진행상황</title>
+  <desc id="desc">데이터, 리서치, 미국 주식 기반을 쌓는 HERMES v3의 상태판</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10262f"/><stop offset="1" stop-color="#194554"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f6c65b"/><stop offset="1" stop-color="#ef7c55"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <circle cx="1030" cy="105" r="230" fill="#2d7380" opacity=".26"/>
+  <circle cx="155" cy="620" r="275" fill="#f6c65b" opacity=".08"/>
+  <g fill="none" stroke="#8ed2cf" opacity=".18"><path d="M0 96H1200M0 212H1200M0 328H1200M0 444H1200M0 560H1200"/><path d="M108 0V680M324 0V680M540 0V680M756 0V680M972 0V680"/></g>
+  <text x="78" y="104" fill="#eef7f0" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="54" font-weight="700">HERMES v3</text>
+  <text x="80" y="146" fill="#bcd7d2" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="23">다시 짓는 중. 아직 주문은 열지 않는다.</text>
+  <rect x="80" y="177" width="504" height="8" rx="4" fill="url(#line)" filter="url(#glow)"/>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect x="79" y="238" width="306" height="164" rx="22" fill="#143640" stroke="#77c8c2" stroke-width="2"/>
+    <text x="108" y="284" fill="#8ed2cf" font-size="20" letter-spacing="2">DATA PLANE</text>
+    <text x="108" y="340" fill="#fff4d8" font-size="43" font-weight="700">10.81M</text>
+    <text x="111" y="375" fill="#c8ded9" font-size="20">Binance bars / 479 symbols</text>
+    <rect x="419" y="238" width="306" height="164" rx="22" fill="#143640" stroke="#f6c65b" stroke-width="2"/>
+    <text x="448" y="284" fill="#f8d98a" font-size="20" letter-spacing="2">RESEARCH</text>
+    <text x="448" y="340" fill="#fff4d8" font-size="43" font-weight="700">6,270</text>
+    <text x="451" y="375" fill="#c8ded9" font-size="20">reports cleaned for PIT</text>
+    <rect x="759" y="238" width="360" height="164" rx="22" fill="#143640" stroke="#ef9b7f" stroke-width="2"/>
+    <text x="788" y="284" fill="#ffb092" font-size="20" letter-spacing="2">US UNIVERSE</text>
+    <text x="788" y="340" fill="#fff4d8" font-size="43" font-weight="700">12,665</text>
+    <text x="791" y="375" fill="#c8ded9" font-size="20">official KIS listings found</text>
+  </g>
+  <g transform="translate(80 487)" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <text y="0" fill="#bcd7d2" font-size="20">NOW</text>
+    <path d="M86 -7H970" stroke="#4d7580" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="86" cy="-7" r="11" fill="#8ed2cf"/><circle cx="355" cy="-7" r="11" fill="#8ed2cf"/><circle cx="622" cy="-7" r="11" fill="#f6c65b"/><circle cx="970" cy="-7" r="11" fill="#375c66"/>
+    <text x="44" y="35" fill="#e8f2ee" font-size="18">Phase 0</text><text x="294" y="35" fill="#e8f2ee" font-size="18">Pipeline</text><text x="565" y="35" fill="#fff1c4" font-size="18">Data in</text><text x="905" y="35" fill="#9eb8b9" font-size="18">No orders</text>
+    <text x="0" y="82" fill="#bcd7d2" font-size="19">Foundation</text><text x="282" y="82" fill="#bcd7d2" font-size="19">Stage gates</text><text x="539" y="82" fill="#f8d98a" font-size="19">Phase 1 active</text><text x="876" y="82" fill="#9eb8b9" font-size="19">Phase 5 later</text>
+  </g>
+</svg>

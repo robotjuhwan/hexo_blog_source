@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 데이터 흐름</title>
+  <desc id="desc">원천 데이터가 시간 규칙과 품질 검사를 거쳐 백테스트 입력으로 정리되는 구조</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f0df"/><stop offset="1" stop-color="#e8dcc1"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#31555c"/></marker>
+  </defs>
+  <rect width="1200" height="680" fill="url(#paper)"/>
+  <path d="M0 80C240 20 370 130 590 72S930 26 1200 92" fill="none" stroke="#d0bd97" stroke-width="2" opacity=".65"/>
+  <path d="M0 620C235 550 420 668 644 597S980 567 1200 627" fill="none" stroke="#d0bd97" stroke-width="2" opacity=".65"/>
+  <text x="78" y="103" fill="#1f3d42" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="49" font-weight="700">과거를 미리 알지 않기 위한 흐름</text>
+  <text x="80" y="145" fill="#607775" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="22">숫자를 받는 것보다, 그 숫자를 언제 알았는지 남기는 쪽</text>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <g transform="translate(90 250)">
+      <rect width="236" height="206" rx="18" fill="#fffaf0" stroke="#446d70" stroke-width="3"/>
+      <circle cx="45" cy="45" r="22" fill="#ec8160"/><path d="M35 45h20M45 35v20" stroke="#fffaf0" stroke-width="4"/>
+      <text x="28" y="103" fill="#264c50" font-size="28" font-weight="700">원천</text>
+      <text x="28" y="140" fill="#526b69" font-size="19">가격 · 공시 · 리포트</text>
+      <text x="28" y="171" fill="#526b69" font-size="19">거래소 마스터</text>
+    </g>
+    <path d="M350 353H468" stroke="#31555c" stroke-width="6" marker-end="url(#arrow)"/>
+    <g transform="translate(485 250)">
+      <rect width="236" height="206" rx="18" fill="#fffaf0" stroke="#446d70" stroke-width="3"/>
+      <circle cx="45" cy="45" r="22" fill="#f2c157"/><path d="M34 47l8 8 16-20" fill="none" stroke="#fffaf0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="103" fill="#264c50" font-size="28" font-weight="700">검사</text>
+      <text x="28" y="140" fill="#526b69" font-size="19">품질 · 격리 · 원장</text>
+      <text x="28" y="171" fill="#526b69" font-size="19">시간 경계 확인</text>
+    </g>
+    <path d="M745 353H863" stroke="#31555c" stroke-width="6" marker-end="url(#arrow)"/>
+    <g transform="translate(880 250)">
+      <rect width="236" height="206" rx="18" fill="#fffaf0" stroke="#446d70" stroke-width="3"/>
+      <circle cx="45" cy="45" r="22" fill="#68a7a0"/><path d="M35 45h20M45 35v20" stroke="#fffaf0" stroke-width="4"/>
+      <text x="28" y="103" fill="#264c50" font-size="28" font-weight="700">입력</text>
+      <text x="28" y="140" fill="#526b69" font-size="19">PIT 데이터 평면</text>
+      <text x="28" y="171" fill="#526b69" font-size="19">백테스트용 기록</text>
+    </g>
+  </g>
+  <g transform="translate(134 538)" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect width="932" height="66" rx="33" fill="#234b50"/>
+    <text x="466" y="43" text-anchor="middle" fill="#f9efd5" font-size="22">발행일이 아니라 available_at. 모르는 값은 0이 아니라 NULL.</text>
+  </g>
+</svg>
