@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 Phase 0의 기반 작업</title>
+  <desc id="desc">감사 문서, 단일 데이터베이스 연결, 테스트 통과가 순서대로 놓인 Phase 0 진행 카드</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183c56"/>
+      <stop offset="1" stop-color="#2b6680"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#082438" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="640" fill="url(#bg)"/>
+  <circle cx="1112" cy="83" r="146" fill="#e37259" opacity="0.24"/>
+  <circle cx="90" cy="574" r="159" fill="#80b9c9" opacity="0.17"/>
+  <text x="600" y="93" text-anchor="middle" fill="#fff9ef" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="38" font-weight="800">Phase 0: 먼저 바닥을 고친다</text>
+  <text x="600" y="129" text-anchor="middle" fill="#c7dfe7" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="19">새 매매 기능보다 앞서는 세 가지: 근거, 공통 규칙, 자동 검사</text>
+
+  <g filter="url(#shadow)">
+    <rect x="107" y="219" width="283" height="244" rx="28" fill="#f5f0e4"/>
+    <circle cx="164" cy="275" r="30" fill="#e37259"/>
+    <text x="164" y="283" text-anchor="middle" fill="#fff9ef" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="23" font-weight="800">1</text>
+    <text x="145" y="341" fill="#183c56" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="800">v2 감사</text>
+    <text x="145" y="378" fill="#637883" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">추측 대신 실측으로</text>
+    <text x="145" y="405" fill="#637883" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">무엇을 버릴지 결정</text>
+
+    <rect x="459" y="219" width="283" height="244" rx="28" fill="#d6e8e7"/>
+    <circle cx="516" cy="275" r="30" fill="#3c7d79"/>
+    <text x="516" y="283" text-anchor="middle" fill="#f7fbf4" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="23" font-weight="800">2</text>
+    <text x="497" y="341" fill="#174a48" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="800">단일 DB 규칙</text>
+    <text x="497" y="378" fill="#4f7773" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">WAL · 잠금 대기 ·</text>
+    <text x="497" y="405" fill="#4f7773" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">읽기 전용을 한 곳에서</text>
+
+    <rect x="811" y="219" width="283" height="244" rx="28" fill="#f1c272"/>
+    <circle cx="868" cy="275" r="30" fill="#9c6a27"/>
+    <text x="868" y="283" text-anchor="middle" fill="#fff9ef" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="23" font-weight="800">3</text>
+    <text x="849" y="341" fill="#5d4219" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="800">자동 검사</text>
+    <text x="849" y="378" fill="#765d34" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">테스트와 import 계약으로</text>
+    <text x="849" y="405" fill="#765d34" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18">경계를 계속 확인</text>
+  </g>
+  <path d="M393 340 H440 M745 340 H792" stroke="#d4e6e9" stroke-width="7" stroke-linecap="round"/>
+  <g transform="translate(410 526)">
+    <rect width="380" height="52" rx="26" fill="#e37259"/>
+    <text x="190" y="34" text-anchor="middle" fill="#fffaf2" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="20" font-weight="800">아직 주문보다 계약이 먼저</text>
+  </g>
+</svg>
