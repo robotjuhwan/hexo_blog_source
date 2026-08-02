@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3의 시장 날씨 지도</title>
+  <desc id="desc">가격, 매크로, 리서치의 세 입력이 시장 상태를 설명하는 구조</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f0df"/><stop offset="1" stop-color="#e8dcc1"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#244f57"/><stop offset="1" stop-color="#16343d"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#456e70"/></marker>
+  </defs>
+  <rect width="1200" height="680" fill="url(#paper)"/>
+  <circle cx="1115" cy="42" r="180" fill="#edb650" opacity=".19"/>
+  <path d="M0 606C231 540 397 655 625 592S992 555 1200 612" fill="none" stroke="#d2bd98" stroke-width="2"/>
+  <text x="78" y="96" fill="#213f43" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="48" font-weight="700">이번 2차수의 시장 날씨 지도</text>
+  <text x="80" y="138" fill="#617875" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="22">예측 하나가 아니라, 판단 전에 확인할 세 가지 배경</text>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <g transform="translate(82 226)">
+      <rect width="274" height="212" rx="22" fill="#fffaf0" stroke="#477276" stroke-width="3"/>
+      <circle cx="47" cy="48" r="25" fill="#e67f5e"/><path d="M47 29v38M28 48h38M34 35l26 26M60 35L34 61" stroke="#fffaf0" stroke-width="4" stroke-linecap="round"/>
+      <text x="31" y="112" fill="#244c50" font-size="30" font-weight="700">가격</text>
+      <text x="31" y="149" fill="#58706e" font-size="19">지수 EMA · 변동성</text>
+      <text x="31" y="180" fill="#58706e" font-size="19">시장 폭 breadth</text>
+    </g>
+    <g transform="translate(463 226)">
+      <rect width="274" height="212" rx="22" fill="#fffaf0" stroke="#477276" stroke-width="3"/>
+      <circle cx="47" cy="48" r="25" fill="#eab957"/><path d="M25 58c13-4 20-24 36-15 9 5 14 1 20-9" fill="none" stroke="#fffaf0" stroke-width="4" stroke-linecap="round"/><circle cx="25" cy="58" r="4" fill="#fffaf0"/><circle cx="81" cy="34" r="4" fill="#fffaf0"/>
+      <text x="31" y="112" fill="#244c50" font-size="30" font-weight="700">매크로</text>
+      <text x="31" y="149" fill="#58706e" font-size="19">금리 · 달러 · VIX</text>
+      <text x="31" y="180" fill="#58706e" font-size="19">1년 백분위 · 이월일수</text>
+    </g>
+    <g transform="translate(844 226)">
+      <rect width="274" height="212" rx="22" fill="#fffaf0" stroke="#477276" stroke-width="3"/>
+      <circle cx="47" cy="48" r="25" fill="#71aaa2"/><path d="M32 30h30v35H32zM39 40h16M39 49h16M39 58h10" fill="none" stroke="#fffaf0" stroke-width="4" stroke-linejoin="round"/>
+      <text x="31" y="112" fill="#244c50" font-size="30" font-weight="700">리서치</text>
+      <text x="31" y="149" fill="#58706e" font-size="19">발간 흐름 · 의견 기울기</text>
+      <text x="31" y="180" fill="#58706e" font-size="19">available_at 기준</text>
+    </g>
+  </g>
+  <path d="M219 471C303 534 442 534 515 497" fill="none" stroke="#456e70" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M600 471V507" fill="none" stroke="#456e70" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M981 471C897 534 758 534 685 497" fill="none" stroke="#456e70" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(382 516)" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect width="436" height="102" rx="51" fill="url(#sky)"/>
+    <text x="218" y="43" text-anchor="middle" fill="#f5efd9" font-size="24" font-weight="700">시장 상태를 설명할 재료</text>
+    <text x="218" y="75" text-anchor="middle" fill="#b7d7d0" font-size="18">모르면 상태를 만들지 않고, 사유를 남긴다.</text>
+  </g>
+</svg>

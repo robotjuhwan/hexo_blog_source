@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3의 잠긴 실행 흐름</title>
+  <desc id="desc">데이터와 신호까지 열린 뒤 백테스트 게이트를 거쳐야 주문 단계가 열린다는 구조</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132d35"/><stop offset="1" stop-color="#21525c"/></linearGradient>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#7bc1b8"/></marker>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <g fill="none" stroke="#a7d9d0" opacity=".12"><path d="M0 100H1200M0 210H1200M0 320H1200M0 430H1200M0 540H1200"/><path d="M110 0V650M330 0V650M550 0V650M770 0V650M990 0V650"/></g>
+  <text x="78" y="97" fill="#f5f0dd" font-family="Noto Serif KR, Apple SD Gothic Neo, sans-serif" font-size="46" font-weight="700">신호가 생겼다고 주문이 열리지는 않는다</text>
+  <text x="80" y="138" fill="#b7d5d0" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="21">이번 차수는 가운데까지. 오른쪽 문은 다음 단계의 검증이 열어야 한다.</text>
+  <g font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <g transform="translate(145 327)"><circle r="60" fill="#70aea7"/><text y="-7" fill="#183941" font-size="25" font-weight="700">데이터</text><text y="25" fill="#183941" font-size="18">PIT 기록</text><text y="102" fill="#e4f0ec" font-size="20">가격 · 공시 · 리서치</text></g>
+    <path d="M220 327H314" stroke="#7bc1b8" stroke-width="6" marker-end="url(#a)"/>
+    <g transform="translate(390 327)"><circle r="60" fill="#70aea7"/><text y="-7" fill="#183941" font-size="25" font-weight="700">피처</text><text y="25" fill="#183941" font-size="18">47개</text><text y="102" fill="#e4f0ec" font-size="20">추세 · 변동성 · 횡단면</text></g>
+    <path d="M465 327H559" stroke="#7bc1b8" stroke-width="6" marker-end="url(#a)"/>
+    <g transform="translate(635 327)"><circle r="60" fill="#f2c058"/><text y="-7" fill="#243c40" font-size="25" font-weight="700">신호</text><text y="25" fill="#243c40" font-size="18">5종</text><text y="102" fill="#fff0c4" font-size="20">현재는 shadow 전용</text></g>
+    <path d="M710 327H804" stroke="#9ab7b3" stroke-width="6" marker-end="url(#a)"/>
+    <g transform="translate(880 327)"><rect x="-71" y="-71" width="142" height="142" rx="28" fill="#325b62" stroke="#f2c058" stroke-width="3"/><path d="M-24 -1v-27c0-32 48-32 48 0v27" fill="none" stroke="#f5efd9" stroke-width="12" stroke-linecap="round"/><circle cy="25" r="11" fill="#f5efd9"/><path d="M0 35v17" stroke="#f5efd9" stroke-width="8" stroke-linecap="round"/><text y="111" fill="#fff0c4" font-size="20">Phase 3 백테스트 게이트</text></g>
+    <path d="M960 327H1040" stroke="#506f73" stroke-width="6" stroke-dasharray="11 12" marker-end="url(#a)"/>
+    <g transform="translate(1090 327)"><circle r="52" fill="#28454c" stroke="#6f9694" stroke-width="3"/><text y="-5" fill="#bcd2ce" font-size="23" font-weight="700">주문</text><text y="24" fill="#bcd2ce" font-size="17">나중에</text><text y="102" fill="#91aaa9" font-size="19">Phase 5 이후</text></g>
+  </g>
+  <rect x="215" y="517" width="770" height="63" rx="31.5" fill="#17383f" stroke="#477b7d" stroke-width="2"/>
+  <text x="600" y="557" text-anchor="middle" fill="#d9ebe4" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="21">현재 전수 스캔: 17,540심볼 · 약 1,030만 행 · 신호 포함 33.12초</text>
+</svg>
