@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 검증 게이트 흐름</title>
+  <desc id="desc">신호를 만든 뒤 다음 세션 재생, 비용 반영, 검증 게이트, 그림자 관찰 순으로 흐르고 주문은 잠겨 있는 구조</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0e2630"/><stop offset="1" stop-color="#163e43"/></linearGradient>
+    <linearGradient id="card" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff8e8"/><stop offset="1" stop-color="#f0e2bd"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#071419" flood-opacity=".32"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#ecb65a"/></marker>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="1060" cy="105" r="220" fill="#1f5455" opacity=".35"/><circle cx="130" cy="650" r="260" fill="#d88952" opacity=".12"/>
+  <text x="80" y="100" fill="#fff8e8" font-size="46" font-family="Georgia, serif" font-weight="700">신호는 바로 주문으로 가지 않는다</text>
+  <text x="82" y="143" fill="#b8d4cd" font-size="23" font-family="sans-serif">좋아 보이는 과거가 아니라, 통과해야 할 절차를 먼저 만든 흐름</text>
+  <g filter="url(#shadow)">
+    <rect x="74" y="231" width="216" height="220" rx="24" fill="url(#card)"/>
+    <rect x="342" y="231" width="216" height="220" rx="24" fill="url(#card)"/>
+    <rect x="610" y="231" width="216" height="220" rx="24" fill="url(#card)"/>
+    <rect x="878" y="231" width="216" height="220" rx="24" fill="#cde6dc"/>
+  </g>
+  <g fill="none" stroke="#ecb65a" stroke-width="7" marker-end="url(#arrow)">
+    <path d="M292 341 H330"/><path d="M560 341 H598"/><path d="M828 341 H866"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle">
+    <text x="182" y="295" fill="#16464a" font-size="25" font-weight="700">1. 신호</text>
+    <text x="182" y="336" fill="#25575a" font-size="20">다섯 규칙이</text><text x="182" y="366" fill="#25575a" font-size="20">발동한 이유를 남김</text>
+    <circle cx="182" cy="407" r="17" fill="#e8824d"/><circle cx="218" cy="407" r="17" fill="#e5bd58"/><circle cx="146" cy="407" r="17" fill="#4faeaa"/>
+    <text x="450" y="295" fill="#16464a" font-size="25" font-weight="700">2. 시간 재생</text>
+    <text x="450" y="336" fill="#25575a" font-size="20">다음 세션 시가만</text><text x="450" y="366" fill="#25575a" font-size="20">진입으로 허용</text>
+    <path d="M401 402 h98" stroke="#225459" stroke-width="5"/><path d="M410 386 v32 M490 386 v32" stroke="#225459" stroke-width="4"/>
+    <text x="718" y="295" fill="#16464a" font-size="25" font-weight="700">3. 비용 · 검증</text>
+    <text x="718" y="336" fill="#25575a" font-size="20">세금·수수료·체결손실</text><text x="718" y="366" fill="#25575a" font-size="20">안전 구간·시도 수</text>
+    <path d="M670 394 l18 18 32-42" fill="none" stroke="#d46b43" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="986" y="295" fill="#16464a" font-size="25" font-weight="700">4. 그림자 관찰</text>
+    <text x="986" y="336" fill="#25575a" font-size="20">기준 미달이면</text><text x="986" y="366" fill="#25575a" font-size="20">주문 권한 없음</text>
+    <path d="M960 393 q26-42 52 0 v24 h-52z" fill="#245c5b"/><rect x="968" y="409" width="36" height="26" rx="3" fill="#245c5b"/><circle cx="986" cy="421" r="4" fill="#cde6dc"/>
+  </g>
+  <path d="M80 536 H1120" stroke="#8dbbb1" stroke-opacity=".35" stroke-width="2"/>
+  <g font-family="sans-serif">
+    <text x="82" y="584" fill="#fff8e8" font-size="29" font-weight="700">주문 버튼은 아직 잠겨 있다</text>
+    <text x="82" y="625" fill="#b8d4cd" font-size="22">표본 100 이상 · 비용 차감 기대값 양수 · Profit Factor 1.2 초과 · 안전 구간 · 시도 수 보고</text>
+  </g>
+  <g transform="translate(1060 555)"><rect width="46" height="50" rx="5" fill="#ecb65a"/><path d="M11 0V-18a12 12 0 0 1 24 0V0" fill="none" stroke="#ecb65a" stroke-width="9"/><circle cx="23" cy="25" r="5" fill="#16464a"/></g>
+</svg>
