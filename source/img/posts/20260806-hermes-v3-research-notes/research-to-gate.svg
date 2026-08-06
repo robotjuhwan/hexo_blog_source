@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 리서치 관찰 흐름</title>
+  <desc id="desc">리서치 자료를 읽고 모델이 관찰 메모를 만들며, 게이트에서 확인한 뒤 기록하거나 멈추는 과정. 주문은 잠겨 있다.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcf5e7"/>
+      <stop offset="1" stop-color="#e8efe6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#334337" flood-opacity=".14"/>
+    </filter>
+    <style>
+      .label { fill: #26372d; font-family: "Noto Serif KR", "Apple SD Gothic Neo", sans-serif; font-size: 28px; font-weight: 700; }
+      .copy { fill: #56665a; font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; font-size: 19px; }
+      .tiny { fill: #738176; font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect width="1200" height="500" rx="32" fill="url(#bg)"/>
+  <path d="M0 395 C160 360 190 465 350 418 S580 356 740 416 S1010 447 1200 370 L1200 500 L0 500Z" fill="#dbe7d9" opacity=".8"/>
+  <g fill="none" stroke="#9eae9f" stroke-width="7" stroke-linecap="round">
+    <path d="M286 238 H348"/>
+    <path d="M570 238 H632"/>
+    <path d="M854 238 H916"/>
+  </g>
+  <g fill="#9eae9f">
+    <path d="M339 228 L359 238 L339 248Z"/>
+    <path d="M623 228 L643 238 L623 248Z"/>
+    <path d="M907 228 L927 238 L907 248Z"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="64" y="118" width="222" height="236" rx="24" fill="#fffdf7"/>
+    <rect x="348" y="118" width="222" height="236" rx="24" fill="#fffdf7"/>
+    <rect x="632" y="118" width="222" height="236" rx="24" fill="#fffdf7"/>
+    <rect x="916" y="118" width="222" height="236" rx="24" fill="#fffdf7"/>
+  </g>
+  <g transform="translate(92 145)">
+    <rect width="70" height="86" rx="8" fill="#d9773d"/>
+    <rect x="13" y="14" width="44" height="5" rx="2.5" fill="#f9e3b5"/>
+    <rect x="13" y="29" width="34" height="5" rx="2.5" fill="#f9e3b5"/>
+    <rect x="13" y="44" width="39" height="5" rx="2.5" fill="#f9e3b5"/>
+    <path d="M86 7 H133 M86 30 H122 M86 53 H128" stroke="#aab7aa" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="92" y="282" class="label">리서치 자료</text>
+  <text x="92" y="316" class="copy">리포트와 시장 기록을</text>
+  <text x="92" y="340" class="copy">시간과 출처별로 보관</text>
+  <g transform="translate(385 149)">
+    <circle cx="65" cy="44" r="43" fill="#e7b85a"/>
+    <path d="M38 40 C45 20 85 20 92 40" fill="none" stroke="#4d624f" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="50" cy="48" r="7" fill="#26372d"/><circle cx="80" cy="48" r="7" fill="#26372d"/>
+    <path d="M58 67 Q65 73 72 67" fill="none" stroke="#26372d" stroke-width="4" stroke-linecap="round"/>
+    <path d="M16 88 Q65 111 114 88" fill="#4d624f"/>
+  </g>
+  <text x="376" y="282" class="label">관찰 메모</text>
+  <text x="376" y="316" class="copy">모델은 필요한 경우에만</text>
+  <text x="376" y="340" class="copy">읽고 판단을 기록</text>
+  <g transform="translate(669 145)">
+    <path d="M65 0 L123 23 V69 C123 108 93 127 65 139 C37 127 7 108 7 69 V23Z" fill="#55725a"/>
+    <path d="M42 68 L59 85 L91 48" fill="none" stroke="#fff9e9" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="661" y="282" class="label">게이트 확인</text>
+  <text x="661" y="316" class="copy">근거가 부족하면</text>
+  <text x="661" y="340" class="copy">다음 단계로 넘기지 않음</text>
+  <g transform="translate(954 143)">
+    <rect x="21" y="54" width="90" height="73" rx="12" fill="#b6653c"/>
+    <path d="M43 54 V37 C43 6 89 6 89 37 V54" fill="none" stroke="#b6653c" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="66" cy="86" r="8" fill="#fff5df"/>
+    <path d="M66 94 V108" stroke="#fff5df" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="944" y="282" class="label">기록 후 멈춤</text>
+  <text x="944" y="316" class="copy">주문 기능은 아직 없음</text>
+  <text x="944" y="340" class="copy">실행 대신 관찰을 계속</text>
+  <text x="64" y="70" class="tiny">HERMES v3 · RESEARCH TO GATE · 2026-08-06</text>
+</svg>
