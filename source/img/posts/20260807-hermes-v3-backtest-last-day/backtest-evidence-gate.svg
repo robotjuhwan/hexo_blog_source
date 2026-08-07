@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES v3 백테스트 증거 게이트</title>
+  <desc id="desc">다섯 전략을 과거 데이터로 검증하고, 통계와 데이터 증거를 함께 통과해야 다음 단계로 갈 수 있으며 주문은 아직 잠겨 있음을 보여 주는 도식.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9f2e4"/>
+      <stop offset="1" stop-color="#e3ede7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#314238" flood-opacity=".14"/>
+    </filter>
+    <style>
+      .label { fill:#26372d; font-family:"Noto Serif KR","Apple SD Gothic Neo",sans-serif; font-size:27px; font-weight:700; }
+      .copy { fill:#5e6d61; font-family:"Noto Sans KR","Apple SD Gothic Neo",sans-serif; font-size:18px; }
+      .tiny { fill:#758478; font-family:"Noto Sans KR","Apple SD Gothic Neo",sans-serif; font-size:15px; font-weight:700; letter-spacing:1px; }
+    </style>
+  </defs>
+  <rect width="1200" height="510" rx="32" fill="url(#bg)"/>
+  <path d="M0 408 C145 364 227 472 386 419 S699 363 834 421 S1045 447 1200 386 L1200 510 L0 510Z" fill="#d9e7d9" opacity=".82"/>
+  <g fill="none" stroke="#9cac9f" stroke-width="7" stroke-linecap="round">
+    <path d="M277 242 H342"/><path d="M566 242 H631"/><path d="M855 242 H920"/>
+  </g>
+  <g fill="#9cac9f"><path d="M333 232 L353 242 L333 252Z"/><path d="M622 232 L642 242 L622 252Z"/><path d="M911 232 L931 242 L911 252Z"/></g>
+  <g filter="url(#shadow)">
+    <rect x="55" y="125" width="222" height="232" rx="24" fill="#fffdf7"/>
+    <rect x="344" y="125" width="222" height="232" rx="24" fill="#fffdf7"/>
+    <rect x="633" y="125" width="222" height="232" rx="24" fill="#fffdf7"/>
+    <rect x="922" y="125" width="222" height="232" rx="24" fill="#fffdf7"/>
+  </g>
+  <g transform="translate(83 151)">
+    <rect x="7" y="5" width="74" height="94" rx="10" fill="#d87a45"/>
+    <path d="M20 29 H68 M20 48 H61 M20 67 H71" stroke="#fbe5b7" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="120" cy="39" r="27" fill="#57745c"/>
+    <path d="M120 23 V39 L136 48" fill="none" stroke="#fffaf0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="83" y="283" class="label">과거 데이터</text>
+  <text x="83" y="317" class="copy">마지막으로 완성된 날까지</text>
+  <text x="83" y="341" class="copy">똑같은 시계로 읽기</text>
+  <g transform="translate(370 150)">
+    <path d="M18 95 V55 M48 95 V30 M78 95 V67 M108 95 V16 M138 95 V45" stroke="#628267" stroke-width="17" stroke-linecap="round"/>
+    <path d="M4 95 H152" stroke="#9cac9f" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="132" cy="21" r="18" fill="#eabf65"/>
+    <path d="M124 21 L130 27 L141 14" fill="none" stroke="#fffaf0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="372" y="283" class="label">다섯 전략</text>
+  <text x="372" y="317" class="copy">수익성, 표본, 여러 기간을</text>
+  <text x="372" y="341" class="copy">함께 다시 확인</text>
+  <g transform="translate(667 151)">
+    <path d="M67 0 L125 23 V69 C125 108 95 127 67 140 C39 127 9 108 9 69 V23Z" fill="#527058"/>
+    <path d="M43 68 L60 85 L93 47" fill="none" stroke="#fff9e9" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M130 92 L153 115 M153 92 L130 115" stroke="#c76d43" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <text x="662" y="283" class="label">증거 게이트</text>
+  <text x="662" y="317" class="copy">상장폐지 데이터까지 맞아야</text>
+  <text x="662" y="341" class="copy">다음 단계로 이동</text>
+  <g transform="translate(962 149)">
+    <rect x="21" y="56" width="92" height="73" rx="12" fill="#b9653d"/>
+    <path d="M44 56 V38 C44 8 90 8 90 38 V56" fill="none" stroke="#b9653d" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="67" cy="87" r="8" fill="#fff6e2"/>
+    <path d="M67 95 V109" stroke="#fff6e2" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="949" y="283" class="label">관찰로 종료</text>
+  <text x="949" y="317" class="copy">주문 연결은 아직 없음</text>
+  <text x="949" y="341" class="copy">근거 부족이면 멈춤</text>
+  <text x="55" y="72" class="tiny">HERMES v3 · BACKTEST EVIDENCE GATE · 2026-08-07</text>
+</svg>
