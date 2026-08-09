@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">HERMES 쥬의 관찰과 안전 게이트 구조</title>
+  <desc id="desc">한국 주식, 미국 주식, 코인 시장의 자료가 분석과 검증을 거쳐 shadow 관찰 또는 사람의 검토로 이어지는 구조도</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102b34"/>
+      <stop offset="0.52" stop-color="#17434a"/>
+      <stop offset="1" stop-color="#0d212d"/>
+    </linearGradient>
+    <linearGradient id="source" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff3e6"/>
+      <stop offset="1" stop-color="#d1ddca"/>
+    </linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1bc55"/>
+      <stop offset="1" stop-color="#d78136"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#001318" flood-opacity=".32"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 6 L 0 11 z" fill="#91bdba"/>
+    </marker>
+    <style>
+      .sans { font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Menlo, monospace; }
+      .label { fill: #10313a; font-size: 27px; font-weight: 750; }
+      .small { fill: #477074; font-size: 18px; font-weight: 500; }
+      .section { fill: #d9eee8; font-size: 19px; font-weight: 700; letter-spacing: 2px; }
+      .title { fill: #fff9e9; font-size: 50px; font-weight: 800; letter-spacing: -1px; }
+      .subtitle { fill: #bdd9d4; font-size: 22px; font-weight: 500; }
+    </style>
+  </defs>
+  <rect width="1600" height="920" fill="url(#background)"/>
+  <path d="M0 750 C280 650 330 930 650 815 S1160 660 1600 810" fill="none" stroke="#4d8e8d" stroke-width="2" opacity=".25"/>
+  <path d="M0 120 C310 10 420 260 742 145 S1240 8 1600 180" fill="none" stroke="#e1a64b" stroke-width="2" opacity=".16"/>
+
+  <text x="105" y="108" class="sans title">HERMES 쥬는 '추천'보다 먼저 흐름을 확인한다</text>
+  <text x="108" y="151" class="sans subtitle">세 시장의 자료를 각자 다른 규칙으로 읽고, 검증되지 않은 신호는 관찰 단계에 남긴다.</text>
+
+  <text x="105" y="246" class="sans section">01 · MARKET INPUTS</text>
+  <g filter="url(#shadow)">
+    <rect x="104" y="282" width="350" height="142" rx="22" fill="url(#source)"/>
+    <circle cx="159" cy="351" r="28" fill="#3f938c"/>
+    <path d="M144 355 L155 340 L168 354 L180 331" fill="none" stroke="#eff8f2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="211" y="343" class="sans label">한국 주식</text>
+    <text x="211" y="377" class="sans small">가격 · 거래량 · 리서치 · 공시</text>
+
+    <rect x="104" y="452" width="350" height="142" rx="22" fill="url(#source)"/>
+    <circle cx="159" cy="521" r="28" fill="#467bab"/>
+    <path d="M145 529 C159 501 174 502 181 516" fill="none" stroke="#eef7fc" stroke-width="5" stroke-linecap="round"/>
+    <text x="211" y="513" class="sans label">미국 주식</text>
+    <text x="211" y="547" class="sans small">거래소 · 세션 · 달러 기준</text>
+
+    <rect x="104" y="622" width="350" height="142" rx="22" fill="url(#source)"/>
+    <circle cx="159" cy="691" r="28" fill="#b97842"/>
+    <path d="M143 702 L154 685 L165 694 L179 676" fill="none" stroke="#fff4e2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="211" y="683" class="sans label">코인 현물 · 선물</text>
+    <text x="211" y="717" class="sans small">24시간 가격 · 펀딩 · 파생 신호</text>
+  </g>
+
+  <path d="M454 352 H590" stroke="#91bdba" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M454 522 H590" stroke="#91bdba" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M454 692 H590" stroke="#91bdba" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <text x="605" y="246" class="sans section">02 · REPRODUCIBLE ENGINE</text>
+  <g filter="url(#shadow)">
+    <rect x="604" y="282" width="370" height="482" rx="28" fill="#d8eee8"/>
+    <rect x="636" y="321" width="306" height="105" rx="16" fill="#fbf4df"/>
+    <text x="670" y="363" class="sans label">같은 규칙으로 분석</text>
+    <text x="670" y="395" class="sans small">로컬 계산 · LLM은 전 종목 분석에 쓰지 않음</text>
+    <path d="M789 442 V488" stroke="#4b8b85" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="636" y="504" width="306" height="105" rx="16" fill="#f2f8f0"/>
+    <text x="670" y="546" class="sans label">과거 구간에서 재생</text>
+    <text x="670" y="578" class="sans small">비용 · 표본 · 기간별 일관성 확인</text>
+    <path d="M789 625 V671" stroke="#4b8b85" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="636" y="687" width="306" height="46" rx="13" fill="#236b6a"/>
+    <text x="789" y="718" text-anchor="middle" class="sans" fill="#f4fbf4" font-size="20" font-weight="700">판단의 근거와 반대 근거를 함께 남김</text>
+  </g>
+
+  <path d="M974 522 H1078" stroke="#91bdba" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="1060" y="246" class="sans section">03 · EVIDENCE GATE</text>
+  <g filter="url(#shadow)">
+    <rect x="1078" y="282" width="406" height="482" rx="28" fill="#123c44" stroke="#e9ad4e" stroke-width="4"/>
+    <rect x="1114" y="322" width="334" height="96" rx="16" fill="url(#gate)"/>
+    <path d="M1162 375 v-18 a20 20 0 0 1 40 0 v18" fill="none" stroke="#633810" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1152" y="373" width="61" height="47" rx="8" fill="#633810"/>
+    <circle cx="1182" cy="395" r="6" fill="#f2c06a"/>
+    <text x="1240" y="368" class="sans" fill="#40250d" font-size="27" font-weight="800">아직 닫힌 게이트</text>
+    <text x="1240" y="398" class="sans" fill="#5b3916" font-size="17" font-weight="600">좋아 보이는 결과만으로 열지 않음</text>
+    <text x="1130" y="479" class="sans" fill="#d9eee8" font-size="27" font-weight="800">통과 전: SHADOW</text>
+    <text x="1130" y="514" class="sans" fill="#b5d2cb" font-size="19">관찰 · 기록 · 다음 검증</text>
+    <line x1="1130" y1="548" x2="1432" y2="548" stroke="#477c7d" stroke-width="2"/>
+    <text x="1130" y="590" class="sans" fill="#d9eee8" font-size="23" font-weight="750">통과 뒤에도 자동 정답은 아니다</text>
+    <text x="1130" y="625" class="sans" fill="#b5d2cb" font-size="19">사람의 검토 · 한도 · 가드 루프</text>
+    <rect x="1130" y="660" width="302" height="60" rx="14" fill="#eff3e6"/>
+    <circle cx="1160" cy="690" r="12" fill="#d86649"/>
+    <text x="1187" y="697" class="sans" fill="#27444a" font-size="19" font-weight="750">언제든 비상 정지 가능</text>
+  </g>
+
+  <g opacity=".9">
+    <rect x="104" y="821" width="1380" height="1" fill="#a8d3ce"/>
+    <circle cx="120" cy="859" r="9" fill="#f1bc55"/>
+    <text x="145" y="866" class="sans" fill="#d9eee8" font-size="20" font-weight="650">쥬의 목표는 매수 신호를 늘리는 것이 아니라, 근거가 부족할 때 멈출 수 있게 하는 것이다.</text>
+  </g>
+</svg>
