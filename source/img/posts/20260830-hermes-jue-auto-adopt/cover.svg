@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">일요일 밤, 위임장에 도장을 찍어두고 울타리 안 저울은 스스로 돌아가게 둔 책상</title>
+  <desc id="desc">달빛 아래 책상 위에 auto:safe_refresh 도장이 찍힌 위임장이 놓여 있고, 오른쪽 낮은 울타리 안에서 저울이 스스로 균형을 잡는 동안 울타리 밖 자물쇠 팻말은 그대로 잠겨 있는 편집 일러스트</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3550"/>
+      <stop offset="0.55" stop-color="#274a63"/>
+      <stop offset="1" stop-color="#3a6178"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a3c"/>
+      <stop offset="1" stop-color="#6b4128"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6d78a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f6d78a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scroll" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf3e2"/>
+      <stop offset="1" stop-color="#eee2c6"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f1f2e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1200" height="440" fill="url(#sky)"/>
+  <circle cx="1030" cy="90" r="46" fill="#f3e3b5"/>
+  <circle cx="1012" cy="76" r="46" fill="#274a63"/>
+  <g fill="#eaf1f6" opacity="0.7">
+    <circle cx="140" cy="70" r="2.4"/>
+    <circle cx="210" cy="130" r="1.8"/>
+    <circle cx="330" cy="60" r="2.2"/>
+    <circle cx="470" cy="110" r="1.6"/>
+    <circle cx="620" cy="50" r="2"/>
+    <circle cx="760" cy="95" r="1.8"/>
+    <circle cx="860" cy="40" r="2.2"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="0" y="440" width="1200" height="240" fill="url(#desk)"/>
+  <rect x="0" y="440" width="1200" height="14" fill="#5b3a24"/>
+
+  <!-- left vignette: a small reading lamp over an empty chair -->
+  <g transform="translate(70 300)">
+    <ellipse cx="150" cy="230" rx="118" ry="34" fill="#0f1f2e" opacity="0.16"/>
+    <ellipse cx="150" cy="150" rx="120" ry="120" fill="url(#lamp)"/>
+
+    <path d="M40 40 Q90 -14 150 -10" fill="none" stroke="#3a4a55" stroke-width="8" stroke-linecap="round"/>
+    <rect x="12" y="24" width="10" height="140" rx="5" fill="#3a4a55"/>
+    <path d="M128 -10 h44 l-8 30 h-28 z" fill="#e7c568"/>
+    <circle cx="150" cy="-10" r="6" fill="#3a4a55"/>
+
+    <g filter="url(#soft)">
+      <rect x="60" y="120" width="180" height="14" rx="7" fill="#638995"/>
+      <rect x="70" y="70" width="24" height="70" rx="10" fill="#638995"/>
+      <rect x="206" y="70" width="24" height="70" rx="10" fill="#638995"/>
+      <rect x="88" y="60" width="124" height="70" rx="16" fill="#87aeb9"/>
+      <rect x="70" y="130" width="14" height="46" rx="6" fill="#3a4a55"/>
+      <rect x="216" y="130" width="14" height="46" rx="6" fill="#3a4a55"/>
+      <ellipse cx="150" cy="92" rx="46" ry="14" fill="#f6d78a" opacity="0.3"/>
+    </g>
+    <text x="150" y="252" text-anchor="middle" fill="#eaf1f6" opacity="0.8" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="15">오늘은 자리를 비웠다</text>
+  </g>
+
+  <!-- scroll / delegation memo with wax seal -->
+  <g transform="translate(415 190)" filter="url(#soft)">
+    <rect x="-16" y="0" width="472" height="230" rx="26" fill="url(#scroll)"/>
+    <circle cx="0" cy="20" r="16" fill="#eee2c6"/>
+    <circle cx="0" cy="210" r="16" fill="#eee2c6"/>
+    <circle cx="456" cy="20" r="16" fill="#eee2c6"/>
+    <circle cx="456" cy="210" r="16" fill="#eee2c6"/>
+    <text x="24" y="46" fill="#8a6a3c" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="15" font-weight="800" letter-spacing="1">HERMES · ALLOCATION 위임장</text>
+    <text x="24" y="92" fill="#3c2e1c" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="800">조건 4개를 넘으면</text>
+    <text x="24" y="128" fill="#3c2e1c" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="800">쥬가 스스로 채택한다</text>
+    <path d="M24 152h230" stroke="#c9b98f" stroke-width="2" stroke-dasharray="6 8"/>
+    <text x="24" y="182" fill="#7a6a4a" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14">approved_by</text>
+    <text x="24" y="204" fill="#7a4326" font-family="ui-monospace, SFMono-Regular, monospace" font-size="17" font-weight="700">auto:safe_refresh</text>
+
+    <!-- wax seal stamped on the memo -->
+    <g transform="translate(378 150)">
+      <circle r="44" fill="#c1462f"/>
+      <circle r="44" fill="none" stroke="#8f2f1c" stroke-width="3" opacity="0.5"/>
+      <text x="0" y="-6" text-anchor="middle" fill="#f6d9c9" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="800">JUE</text>
+      <text x="0" y="14" text-anchor="middle" fill="#f6d9c9" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="11">1회 무장</text>
+    </g>
+    <g transform="translate(378 42) rotate(-8)">
+      <rect x="-10" y="0" width="20" height="52" rx="9" fill="#5b3a24"/>
+      <rect x="-22" y="-18" width="44" height="24" rx="9" fill="#7a4a2c"/>
+    </g>
+  </g>
+
+  <!-- fenced pen with self-balancing scale -->
+  <g transform="translate(935 300)">
+    <ellipse cx="70" cy="185" rx="150" ry="24" fill="#0f1f2e" opacity="0.16"/>
+    <g stroke="#c9b98f" stroke-width="8" stroke-linecap="round">
+      <path d="M-90 168 V96"/>
+      <path d="M-30 168 V72"/>
+      <path d="M30 168 V64"/>
+      <path d="M90 168 V72"/>
+      <path d="M150 168 V96"/>
+      <path d="M-95 128 H155"/>
+      <path d="M-95 156 H155"/>
+    </g>
+    <g>
+      <path d="M-46 96 h30 l-9 11 l9 11 h-30 z" fill="#5b9db7"/>
+      <path d="M14 72 h30 l-9 11 l9 11 h-30 z" fill="#e26f55"/>
+      <path d="M74 64 h30 l-9 11 l9 11 h-30 z" fill="#f0c36d"/>
+      <path d="M134 82 h30 l-9 11 l9 11 h-30 z" fill="#5b9db7"/>
+    </g>
+    <g transform="translate(30 60)" filter="url(#soft)">
+      <rect x="-4" y="0" width="8" height="66" rx="4" fill="#2a4356"/>
+      <path d="M-66 14 L66 14" stroke="#2a4356" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-66 14 L-82 44" stroke="#2a4356" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-66 14 L-50 44" stroke="#2a4356" stroke-width="5" stroke-linecap="round"/>
+      <path d="M66 14 L50 44" stroke="#2a4356" stroke-width="5" stroke-linecap="round"/>
+      <path d="M66 14 L82 44" stroke="#2a4356" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-82 44 A16 9 0 0 0 -50 44 Z" fill="#e7c568"/>
+      <path d="M50 44 A16 9 0 0 0 82 44 Z" fill="#e7c568"/>
+      <circle cx="0" cy="10" r="7" fill="#e7c568"/>
+      <rect x="-14" y="62" width="28" height="9" rx="4" fill="#2a4356"/>
+    </g>
+  </g>
+
+  <!-- locked gate, clearly separated below the pen -->
+  <g transform="translate(1040 490)" filter="url(#soft)">
+    <rect x="-34" y="10" width="68" height="52" rx="12" fill="#e26f55"/>
+    <path d="M-18 10 v-16 a18 18 0 0 1 36 0 v16" fill="none" stroke="#e26f55" stroke-width="8"/>
+    <rect x="-10" y="28" width="20" height="22" rx="5" fill="#fff8ef"/>
+    <text x="0" y="92" text-anchor="middle" fill="#eaf1f6" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="15" font-weight="700">새 종목: 잠김</text>
+  </g>
+
+  <!-- caption ribbon -->
+  <g transform="translate(150 610)">
+    <rect width="900" height="52" rx="22" fill="#0b2438" opacity="0.85"/>
+    <text x="450" y="34" text-anchor="middle" fill="#f0e6cf" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700">결정은 넘겨도, 울타리는 남긴다</text>
+  </g>
+</svg>

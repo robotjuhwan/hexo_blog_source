@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="460" viewBox="0 0 1160 460" role="img" aria-labelledby="ftitle fdesc">
+  <title id="ftitle">안전조건 판정 뒤 자동 채택과 대기 제안으로 갈라지는 흐름도</title>
+  <desc id="fdesc">쥬가 낸 배분 판본이 네 조건을 모두 통과하면 auto:safe_refresh로 자동 채택되고, 하나라도 못 넘으면 거부되지 않고 대기 제안으로 남아 소유자가 직접 본다는 흐름도</desc>
+  <defs>
+    <filter id="fshadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#1e3443" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1160" height="460" fill="#f4f0e6"/>
+
+  <g filter="url(#fshadow)">
+    <rect x="40" y="180" width="220" height="100" rx="20" fill="#173d59"/>
+    <text x="150" y="222" text-anchor="middle" fill="#e7f1f2" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="800">쥬의 제안</text>
+    <text x="150" y="248" text-anchor="middle" fill="#9db5bd" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14">새 배분 판본</text>
+  </g>
+
+  <path d="M262 230 H340" fill="none" stroke="#8a97a0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M326 216 L354 230 L326 244" fill="none" stroke="#8a97a0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#fshadow)">
+    <rect x="360" y="150" width="240" height="160" rx="20" fill="#f5f0e4" stroke="#d9d4c7" stroke-width="2"/>
+    <text x="480" y="192" text-anchor="middle" fill="#3d6d85" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="16" font-weight="800">안전조건 4개</text>
+    <text x="480" y="220" text-anchor="middle" fill="#3d474b" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14">보유 커버 · 축 동일</text>
+    <text x="480" y="242" text-anchor="middle" fill="#3d474b" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14">밴드 이내 · 활성 판본 존재</text>
+    <text x="480" y="278" text-anchor="middle" fill="#8a8272" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13">판정: risk.allocation_auto</text>
+  </g>
+
+  <path d="M600 200 C 660 160, 700 140, 760 128" fill="none" stroke="#5b9db7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M738 122 L768 126 L752 152" fill="none" stroke="#5b9db7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="668" y="118" fill="#3d6d85" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700">4개 전부 통과</text>
+
+  <path d="M600 262 C 660 302, 700 322, 760 336" fill="none" stroke="#e26f55" stroke-width="6" stroke-linecap="round"/>
+  <path d="M738 342 L768 338 L752 312" fill="none" stroke="#e26f55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="655" y="366" fill="#c1573f" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700">하나라도 못 넘음</text>
+
+  <g filter="url(#fshadow)">
+    <rect x="780" y="60" width="340" height="120" rx="20" fill="#183c56"/>
+    <text x="808" y="102" fill="#f0c36d" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="800">자동 채택</text>
+    <text x="808" y="130" fill="#cfe0e6" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14">approved_by = auto:safe_refresh</text>
+    <text x="808" y="154" fill="#9db5bd" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13">사람이 안 봐도 반영</text>
+  </g>
+
+  <g filter="url(#fshadow)">
+    <rect x="780" y="280" width="340" height="120" rx="20" fill="#f5f0e4" stroke="#e2a08f" stroke-width="2"/>
+    <text x="808" y="322" fill="#c1573f" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="800">대기 제안으로 남음</text>
+    <text x="808" y="348" fill="#6c7678" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="14">거부가 아니라 보류</text>
+    <text x="808" y="372" fill="#6c7678" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13">소유자가 원장에서 직접 확인 후 채택</text>
+  </g>
+</svg>
