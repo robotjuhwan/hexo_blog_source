@@ -112,6 +112,8 @@ deploy:
   type: git
   repo: https://github.com/robotjuhwan/robotjuhwan.github.io.git
   branch: main
+  name: robotjuhwan
+  email: 11154693+robotjuhwan@users.noreply.github.com
 
 robotstxt:
   useragent: "*"
